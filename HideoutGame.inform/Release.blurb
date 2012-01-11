@@ -1,0 +1,55 @@
+! Blurb file created by Inform build 6G60
+
+status "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Dropbox\HideoutGame\HideoutGame.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Dropbox\HideoutGame\HideoutGame.inform"
+release to "C:\Dropbox\HideoutGame\HideoutGame Materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "The Hideout.zblorb"
+storyfile "C:\Dropbox\HideoutGame\HideoutGame.inform\Build\output.z5" include
+ifiction "C:\Dropbox\HideoutGame\HideoutGame.inform\Metadata.iFiction" include
+cover "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
+picture 1 "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
+release file "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Cover.jpg"
+release file "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Small Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "CA4BED2D-AC7D-4DC0-BE5F-24FE57B1CAB5"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2012"
+placeholder [TITLE] = "The Hideout"
+placeholder [AUTHOR] = "Peter Rogers et al"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "The Hideout.zblorb.js"
+template path "C:\Dropbox\HideoutGame\HideoutGame Materials\Templates"
+template path "C:\Documents and Settings\Peter\My Documents\Inform\Templates"
+template path "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Templates"
+interpreter "Parchment" "z"
+base64 "C:\Dropbox\HideoutGame\HideoutGame.inform\Build\output.z5" to "C:\Dropbox\HideoutGame\HideoutGame Materials\Release\interpreter\The Hideout.zblorb.js"
+
+! Website instructions
+
+template path "C:\Dropbox\HideoutGame\HideoutGame Materials\Templates"
+template path "C:\Documents and Settings\Peter\My Documents\Inform\Templates"
+template path "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line9"><img border=0 src=inform:/Reveal.png></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc391.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc398.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc392.html><img border=0 src=inform:/help.png></a>||
