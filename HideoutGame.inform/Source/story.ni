@@ -6,6 +6,10 @@ Use verbose room descriptions.
 
 Release along with an interpreter.
 
+Use no scoring.
+
+Use the serial comma.
+
 
 Section 2 - Hideout, Present Day
 
@@ -19,11 +23,11 @@ Instead of kissing Brad, say "Brad evades your clumsy advances."
 
 Instead of giving the stub to Brad, say "Brad says, 'No thanks, I've already got a ticket.'"
 
-The Hideout Coffeehouse is east of 7th-and-Congress. "A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner. The theater is above the coffeehouse, accessible via a stairway."   The counter is scenery in 7th-and-Congress.  The dogs are scenery in 7th-and-Congress.  The cartoonists are scenery in 7th-and-Congress.
+The Hideout Coffeehouse is east of 7th-and-Congress. The Hideout Coffeehouse is inside of 7th-and-Congress.  "A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner. The theater is above the coffeehouse, accessible via a stairway."   The counter is scenery in 7th-and-Congress.  The dogs are scenery in 7th-and-Congress.  The cartoonists are scenery in 7th-and-Congress.
 
 Inside The Hideout Coffeehouse is a man called Carl. The description of Carl is "Carl wears a wistful smile and khaki shorts."
 
-The Stairway is above The Hideout Coffeehouse.  "You are standing on a long, steep set of stairs with two landings. The walls are dusty, with a few old picture-frame nails ihammered into them.  You see a colorful mural painted along one wall.  At the top of the stairs you see a small room with a ticket table, and you can go downstairs to the coffee shop."  The colorful mural is scenery in the stairway.
+The Stairway is above The Hideout Coffeehouse.  "You are standing on a long, steep set of stairs with two landings. The walls are dusty, with a few old picture-frame nails hammered into them.  You see a colorful mural painted along one wall.  At the top of the stairs you see a small room with a ticket table, and you can go downstairs to the coffee shop."  The colorful mural is scenery in the stairway.
 
 The Foyer is above the Stairway.  "This is a small, L-shaped foyer at the top of the stairs.  Kareem sits at a small desk beneath a pretty chandelier, holding a fancy hole punch.  There are doors to the north, south, east, and west, a steep stairway leading down, and a ladder leading up."  The chandelier is scenery in the Foyer.
 
@@ -46,11 +50,13 @@ A swiffer is an object in the Closet.
 The Catwalk Area is above the Green Room.  The Catwalk Area is east of the Green Room.  "You are standing on a metal catwalk that stretches out behind the
 Hideout Theatre and over the Downstairs Theatre.  You are one story up and can see the tall buildings of downtown Austin surrounding you. To the north you can see 7th street east of Congress. If you walk far enough to the east you can smell the dumpsters in the alley. To the east is a metal staircase leading down. To the west is a door."
 
-Instead of going east from the Catwalk Area: say "Best to stay inside the theater."
+Instead of going east in the Catwalk Area: say "Best to stay inside the theater."
 
 The metal catwalk is scenery in The Catwalk Area.  "The catwalk is metal-lattice with railings.  It's rather noisy."
 
 The Small Bathroom is south of the Foyer.  "You are in a small bathroom that contains a toilet and sink. There is a mirror on the wall as well as a large number of photos of various Austin improv troupes and gatherings. There is a door to the south."  The toilet, the sink, the mirror, and the photos are scenery in the Small Bathroom.
+
+Instead of going outside in the Small Bathroom:  try going north.
 
 The plunger is an object in the Small Bathroom.
 
@@ -60,7 +66,7 @@ The office door is north of the Foyer and south of the office.  The Office door 
 
 The Office is a room.  "You are in the office of the Hideout Theatre.  There is a broad desk that contains a computer and a printer. There is a filing cabinet containing class materials. The south wall is covered by shelves that contain a variety of supplies. There are two chairs. The walls are covered with various photos, show posters, and other improv detritus."
 
-Andy Crouch is a man in the Office.
+Andy is a man in the Office.
 
 The Audience Seating is west of the Foyer.  "You are standing in the theatre's audience area. You see two sets of risers covered in chairs, and split by a central aisle.  To the east is a door. To the west is the stage."
 
@@ -68,9 +74,9 @@ Instead of going from the Foyer to the Audience Seating when the player is not c
 
 An old coffee cup is an object in the Audience Seating.
 
-The Stage is west of the Audience Seating.  "This is where the magic happens... sometimes. You are standing on the stage of the Hideout Theatre. The floor is plywood platforms painted black. To your west, the wooden backdrop is painted with a Twilight Zone design and contains a door, a curtained door and a window."
+The Stage is west of the Audience Seating.  "This is where the magic happens... sometimes. You are standing on the stage of the Hideout Theatre.  The stage is made of plywood platforms, all painted black. To your west, the wooden backdrop is painted with a Twilight Zone design and contains a door, a curtained door and a window."
 
-Kaci Danger is a woman in the Stage.  Kaci carries a paintbrush.
+Kaci is a woman in the Stage.  Kaci carries a paintbrush.
 
 Backstage is west of the Stage.  "This is the cramped and dim backstage area of the Hideout Theatre. To the west is a brick wall. The east wall is the back of the stage's backdrop."
 
