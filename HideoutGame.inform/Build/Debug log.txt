@@ -1,19 +1,19 @@
 Debugging log of Inform 7
-Inform called as: /Applications/Inform.app/Contents/Resources/Compilers/ni -rules /Applications/Inform.app/Contents/Resources/Inform7/Extensions -package /Users/roy/src/Hideout-Text-Adventure/HideoutGame.inform -extension=z5 
+Inform called as: C:\Program Files\Inform 7\Compilers\ni -rules C:\Program Files\Inform 7\Inform7\Extensions -package C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform -extension=z5 
 
 
 -----------------------------------------------------
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 367 words long.
+I've now read your source text, which is 1130 words long.
 
 
 -----------------------------------------------------
 Phase II ... Semantic analysis Ia
 -----------------------------------------------------
 
-I've also read Standard Rules by Graham Nelson, which is 39419 words long.
+I've also read Standard Rules by Graham Nelson, which is 39455 words long.
 
 
 -----------------------------------------------------
@@ -56,7 +56,6 @@ Phase VIII ... Second pass through assertions
 Phase IX ... Making the model world
 -----------------------------------------------------
 
-Door O45'office door': in <null>: connections O46'office', O39'foyer', <null>
 
 
 -----------------------------------------------------
@@ -153,7 +152,7 @@ Phase XII ... Code generation
 Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
-Total of 111 files written as streams.
+Total of 103 files written as streams.
 
 That concludes the debugging log from this run of Inform.
 Its contents were as follows, and can be changed by placing
@@ -171,5 +170,5 @@ Omitted:
   object creations   object tree   phrase comparisons   phrase compilation   phrase creations   phrase registration 
   phrase usage   predicate calculus   predicate calculus workings  pronouns    property assignments   property creations 
   property provision   property translations   relation definitions   rule attachments   rulebook compilation   spatial map 
-  specification permissions   specification usage   specificities    table construction   template reading   text substitutions 
-  time periods   variable creations   verifications    vocabulary  
+  spatial map workings  specification permissions   specification usage   specificities    table construction   template reading 
+  text substitutions   time periods   variable creations   verifications    vocabulary  
