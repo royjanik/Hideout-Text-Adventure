@@ -8,7 +8,7 @@ In 7th-and-Congress is a man called Brad.  The description of Brad is "Don't eye
 
 Release along with an interpreter.
 
-The Hideout Coffeehouse is east of 7th-and-Congress. "A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner. To the east is a stairwell."   The counter is scenery in 7th-and-Congress.  The dogs are scenery in 7th-and-Congress.  The cartoonists are scenery in 7th-and-Congress.
+The Hideout Coffeehouse is east of 7th-and-Congress. "A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner. The theater is above the coffeehouse, accessible via a stairway."   The counter is scenery in 7th-and-Congress.  The dogs are scenery in 7th-and-Congress.  The cartoonists are scenery in 7th-and-Congress.
 
 Inside The Hideout Coffeehouse is a man called Carl. The description of Carl is "Carl wears a wistful smile and khaki shorts."
 

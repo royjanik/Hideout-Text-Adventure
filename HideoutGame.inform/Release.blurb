@@ -1,22 +1,22 @@
-! Blurb file created by Inform build 6G60
+! Blurb file created by Inform build 6E72
 
-status "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Dropbox\HideoutGame\HideoutGame.inform\Build\StatusCblorb.html"
+status "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/CblorbModel.html" "/Users/roy/src/Hideout-Text-Adventure/HideoutGame.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Dropbox\HideoutGame\HideoutGame.inform"
-release to "C:\Dropbox\HideoutGame\HideoutGame Materials\Release"
+project folder "/Users/roy/src/Hideout-Text-Adventure/HideoutGame.inform"
+release to "/Users/roy/src/Hideout-Text-Adventure/HideoutGame Materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "The Hideout.zblorb"
-storyfile "C:\Dropbox\HideoutGame\HideoutGame.inform\Build\output.z5" include
-ifiction "C:\Dropbox\HideoutGame\HideoutGame.inform\Metadata.iFiction" include
-cover "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
-picture 1 "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
-release file "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Cover.jpg"
-release file "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Small Cover.jpg"
+storyfile "/Users/roy/src/Hideout-Text-Adventure/HideoutGame.inform/Build/output.z5" include
+ifiction "/Users/roy/src/Hideout-Text-Adventure/HideoutGame.inform/Metadata.iFiction" include
+cover "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
+picture 1 "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
+release file "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/Cover.jpg"
+release file "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/Small Cover.jpg"
 
 ! Placeholder variables
 
@@ -33,20 +33,20 @@ placeholder [BLURB] = "A work of interactive fiction."
 ! Website instructions
 
 placeholder [ENCODEDSTORYFILE] = "The Hideout.zblorb.js"
-template path "C:\Dropbox\HideoutGame\HideoutGame Materials\Templates"
-template path "C:\Documents and Settings\Peter\My Documents\Inform\Templates"
-template path "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Templates"
+template path "/Users/roy/src/Hideout-Text-Adventure/HideoutGame Materials/Templates"
+template path "/Users/roy/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/Templates"
 interpreter "Parchment" "z"
-base64 "C:\Dropbox\HideoutGame\HideoutGame.inform\Build\output.z5" to "C:\Dropbox\HideoutGame\HideoutGame Materials\Release\interpreter\The Hideout.zblorb.js"
+base64 "/Users/roy/src/Hideout-Text-Adventure/HideoutGame.inform/Build/output.z5" to "/Users/roy/src/Hideout-Text-Adventure/HideoutGame Materials/Release/interpreter/The Hideout.zblorb.js"
 
 ! Website instructions
 
-template path "C:\Dropbox\HideoutGame\HideoutGame Materials\Templates"
-template path "C:\Documents and Settings\Peter\My Documents\Inform\Templates"
-template path "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Templates"
+template path "/Users/roy/src/Hideout-Text-Adventure/HideoutGame Materials/Templates"
+template path "/Users/roy/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/Templates"
 css
 website "Standard"
-status instruction ||&nbsp;<a href="source:story.ni#line9"><img border=0 src=inform:/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line9"><img border=0 src=inform:/Reveal.tif></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc391.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
