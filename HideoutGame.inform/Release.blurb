@@ -46,7 +46,7 @@ template path "C:\Documents and Settings\Peter\My Documents\Inform\Templates"
 template path "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Templates"
 css
 website "Standard"
-status instruction ||&nbsp;<a href="source:story.ni#line7"><img border=0 src=inform:/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line8"><img border=0 src=inform:/Reveal.png></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc391.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
