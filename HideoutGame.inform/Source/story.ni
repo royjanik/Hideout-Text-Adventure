@@ -13,6 +13,8 @@ Use the serial comma.
 
 A person is either disagreeable or agreeable.  A person is usually disagreeable.
 
+Include Modified Exit by Emily Short.
+
 
 Section 2 - Basic Geography
 [The basic layout of rooms, plus 'color' objects that aren't related to specific puzzles.]
@@ -28,7 +30,7 @@ That can't be good."
 Instead of taking the sky:  say "You can't take that.  (And while we're at it, you can't boil the sea, either.)"
 
 
-The Hideout Coffeehouse is east of the Hideout Entryway. The Hideout Coffeehouse is inside of the Hideout Entryway.  "This is the Hideout's main coffeehouse area.  A long, glassed-in counter displays food, and elaborately-drawn blackboards list an extensive drinks menu.  All of this would be delightful, except for the ominous chanting and thunder audible from no particular direction, and the faint sense that the walls are slowly breathing.  This might explain the strange absence of patrons just now.  The theater is above the coffeehouse, accessible via a stairway."  The counter and the blackboards are scenery in the Hideout Coffeehouse.
+The Hideout Coffeehouse is east of the Hideout Entryway. The Hideout Coffeehouse is inside of the Hideout Entryway.  "This is the Hideout's main coffeehouse area.  A long, glassed-in counter displays food, and elaborately-drawn blackboards list an extensive drinks menu.  Tasteful paintings hang on the opposite wall.  All of this would be delightful, except for the ominous chanting and thunder audible from no particular direction, and the faint sense that the walls are slowly breathing.  This might explain the strange absence of patrons just now.  The theater is above the coffeehouse, accessible via a stairway."  The counter and the blackboards are scenery in the Hideout Coffeehouse.
 
 
 The Stairway is above The Hideout Coffeehouse.  "You are standing on a long, steep set of stairs with two landings. The walls are dusty, with a few old picture-frame nails hammered into them.  You see colorful murals painted along the walls.  At the top of the stairs you can see a small room with a ticket table, and you can go downstairs to the coffee shop."  The colorful murals are scenery in the stairway.
@@ -37,13 +39,15 @@ The Stairway is above The Hideout Coffeehouse.  "You are standing on a long, ste
 The Foyer is above the Stairway.  "This is a small, L-shaped foyer at the top of the stairs.  Kareem sits at a small desk beneath a pretty chandelier, holding a fancy hole punch.  There are doors to the north, south, east, and west, a steep stairway leading down, and a ladder leading up."  The chandelier is scenery in the Foyer.
 
 
-The Top of the Ladder is above the Foyer.  "You are at the top of the ladder that leads to the tech booth.  There is a door here, with a keypad beside it."
+The Top of the Ladder is above the Foyer.  "You are at the top of the ladder that leads to the tech booth.  There is a door to the north, with a keypad beside it."
 
 
-The Tech Booth is a room.  "You are in the tech booth.  Large windows overlook the theater, and before you sits a large lighting board.  Outside the door, a ladder leads back down to the foyer."  The windows and are scenery in the Tech Booth.
+The Tech Booth is a room.  "You are in the tech booth.  Large windows overlook the theater, and before you sits a large lighting board.  There is a door to the south; outside the door, a ladder leads back down to the foyer."  The windows and are scenery in the Tech Booth.
 
-The tech door is north of the Top of the Ladder and south of the Tech Booth.  The tech door is a door.  The tech door is locked.
+The tech door is north of the Top of the Ladder and south of the Tech Booth.  The tech door is a door.  The tech door is locked.  The tech door is scenery.
 
+Instead of going inside while in the Top of the Ladder, try going north.
+Instead of going outside in the Tech Booth, try going south.
 
 The Green Room is east of the Foyer.  "This is a large, spacious, well-lit room with hardwood floors.  There is a door up a short stairway to the east, a door to the west, and a door in the northeast corner of the room. There is a bell here."
 
@@ -80,7 +84,7 @@ The Office is a room.  "You are in the office of the Hideout Theatre.  There is 
 
 The Audience Seating is west of the Foyer.  "You are standing in the theatre's audience area. You see two sets of risers covered in chairs, and split by a central aisle.  To the east is a door. To the west is the stage."
 
-Instead of going from the Foyer to the Audience Seating when the player is not carrying the stub, say "Kareem blocks your path.  'Can't get in without a ticket!' he shouts."
+[Instead of going from the Foyer to the Audience Seating when the player is not carrying the stub, say "Kareem blocks your path.  'Can't get in without a ticket!' he shouts."]
 
 An old coffee cup is an object in the Audience Seating.
 
@@ -123,7 +127,7 @@ Topic	Reply
 "espresso/coffee"	"Carl says, 'It's delicious!'"
 
 
-Inside the Foyer is a man named Kareem.  The description of Kareem is "A bearded gentleman in a three-piece suit, Kareem looks [if agreeable]slightly-buzzed, and content[otherwise]sober and grouchy[end if]."
+Inside the Foyer is a man called Kareem.  The description of Kareem is "A bearded gentleman in a three-piece suit, Kareem looks [if agreeable]slightly-buzzed, and content[otherwise]sober and grouchy[end if]."
 
 
 Kaci is a woman in the Stage.  Kaci carries a paintbrush.
@@ -133,6 +137,8 @@ Roy is a man in the Stage.
 
 Section 4 - Getting The Whisky
 [You'll use this to ply Kareem later on.]
+
+test whisky with "in / ask carl about paintings / x syrups / ask carl about whisky"
 
 The bottle of whisky is fixed in place.
 
@@ -144,17 +150,21 @@ Instead of taking the bottle of whisky while the whisky is fixed in place, say  
 
 After asking Carl about "whisky" while Carl is disagreeable:  say "Carl sighs regretfully.  'I'm afraid that whisky is my personal supply.  It's not for customer purchase.'"
 
-The paintings are scenery in the Coffeehouse.  The description of the paintings is "These are some heavily art-deco-influenced designs with bright colors and animal motifs.  An discreetly-placed label lists the artist as one 'Carl Johannson'."
+The tasteful paintings are scenery in the Coffeehouse.  The description of the paintings is "These are some heavily art-deco-influenced designs with bright colors and animal motifs.  An discreetly-placed label lists the artist as one 'Carl Johannson'."
 
 After asking Carl about "paintings": say "Carl grins widely.  'Thanks for asking me about my artworks, friend.'"; now Carl is agreeable.
 
-After asking Carl about "whisky" while Carl is agreeable:  say "Carl grins at you conspiratorially.  'Surely an art lover as yourself would appreciate some good whisky,' he says, and slips you the bottle."; now the whisky is portable; move the whisky to the player.
+After asking Carl about "whisky" while Carl is agreeable and the whisky is visible:  say "Carl grins at you conspiratorially.  'Surely an art lover as yourself would appreciate some good whisky,' he says, and slips you the bottle."; now the whisky is portable; move the whisky to the player.
 
 
 Section 5 - Entering the Tech Booth
 [The tech booth is locked with a coded keypad.  To get in, the player must (1) give the whisky to Kareem, and (2) get the keypad code from Kareem.]
 
-The keypad is an object in the Top of the Ladder.  "This keypad lets you enter a series of numbers.  Presumably if you type the correct code on the keypad, it will unlockthe adjacent door."  The keypad is fixed in place.
+test kareem with "test whisky / u / u / give whisky to kareem / ask kareem about keypad "
+
+test keypad with "test kareem / u / type [the keypad code] on the keypad / open door / in"
+
+The keypad is an object in the Top of the Ladder.  "This keypad lets you enter a series of numbers.  Presumably if you type the correct code on the keypad, it will unlock the adjacent door."  The keypad is fixed in place.
 
 The keypad code is a number that varies.  The keypad code is 0.
 
@@ -230,7 +240,7 @@ Player warned is a truth state that varies.  Player warned is false.
 Instead of going nowhere from the Backstage when Backstage is dark and player warned is false:  say "It's dark.  You think you can hear grues.  You'd probably better just walk right out the way you walked in."; now player warned is true.
 
 Instead of going nowhere from the Backstage when Backstage is dark and player warned is true:  end the game saying "You have been eaten by a grue." instead.
-
+	
 After going east from the Backstage:  now player warned is false.
 
 [Hack: we're assuming that the backstage area is the only darken-able room in the game.]

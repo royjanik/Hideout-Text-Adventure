@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x0120E988" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x0121C048" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x0120E988"/>
-  <item nodeId="node-0x0120E988">
+  <activeNode nodeId="node-0x0121C048"/>
+  <item nodeId="node-0x0121C048">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">The Hideout&#x000A;An Interactive Fiction by Peter Rogers et al&#x000A;Release 1 / Serial number 120111 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;7th-and-Congress&#x000A;You are in downtown Austin, TX. To the east is The Hideout Theatre &amp; Coffeehouse.&#x000A;&#x000A;There is a paper stub at your feet.&#x000A;&#x000A;You can also see Brad here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">The Hideout&#x000A;An Interactive Fiction by Peter Rogers et al&#x000A;Release 1 / Serial number 120120 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Hideout Entryway&#x000A;You stand at the entrance to the Hideout Theatre &amp; Coffeehouse.  Under normal circumstances, it would be a bright, sunny day, with cheery passers-by going about their business in the middle of downtown Austin.  But everything seems a little... off.  The sky looks odd.  An occasional chill creeps up your spine.  And you sense that something is deeply, deeply Not Right.&#x000A;&#x000A;There is a paper stub at your feet.&#x000A;&#x000A;You can also see Brad here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0x0120EA70"/>
-      <child nodeId="node-0x0120F2B0"/>
-      <child nodeId="node-0x0120F3C8"/>
-      <child nodeId="node-0x0120F990"/>
-      <child nodeId="node-0x01209F40"/>
-      <child nodeId="node-0x0120A0C0"/>
-      <child nodeId="node-0x0120A838"/>
-      <child nodeId="node-0x01211AB0"/>
-      <child nodeId="node-0x01213578"/>
-      <child nodeId="node-0x012136F0"/>
-      <child nodeId="node-0x012148C8"/>
+      <child nodeId="node-0x0121C130"/>
+      <child nodeId="node-0x0121C948"/>
+      <child nodeId="node-0x0121CA60"/>
+      <child nodeId="node-0x0121D028"/>
+      <child nodeId="node-0x0120FCB0"/>
+      <child nodeId="node-0x0120FE30"/>
+      <child nodeId="node-0x012105A8"/>
+      <child nodeId="node-0x01212620"/>
+      <child nodeId="node-0x0120B360"/>
+      <child nodeId="node-0x0120B4D8"/>
+      <child nodeId="node-0x0120C6B0"/>
     </children>
   </item>
-  <item nodeId="node-0x0120EA70">
+  <item nodeId="node-0x0121C130">
     <command xml:space="preserve">I</command>
     <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -31,10 +31,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0120EB88"/>
+      <child nodeId="node-0x0121C220"/>
     </children>
   </item>
-  <item nodeId="node-0x0120EB88">
+  <item nodeId="node-0x0121C220">
     <command xml:space="preserve">x stub</command>
     <result xml:space="preserve">You see nothing special about the paper stub.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -42,10 +42,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0120ECD0"/>
+      <child nodeId="node-0x0121C368"/>
     </children>
   </item>
-  <item nodeId="node-0x0120ECD0">
+  <item nodeId="node-0x0121C368">
     <command xml:space="preserve">get it</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -53,10 +53,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0120EE68"/>
+      <child nodeId="node-0x0121C500"/>
     </children>
   </item>
-  <item nodeId="node-0x0120EE68">
+  <item nodeId="node-0x0121C500">
     <command xml:space="preserve">x it</command>
     <result xml:space="preserve">You see nothing special about the paper stub.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -64,10 +64,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0120F000"/>
+      <child nodeId="node-0x0121C698"/>
     </children>
   </item>
-  <item nodeId="node-0x0120F000">
+  <item nodeId="node-0x0121C698">
     <command xml:space="preserve">read it</command>
     <result xml:space="preserve">You see nothing special about the paper stub.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -75,10 +75,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0120F118"/>
+      <child nodeId="node-0x0121C7B0"/>
     </children>
   </item>
-  <item nodeId="node-0x0120F118">
+  <item nodeId="node-0x0121C7B0">
     <command xml:space="preserve">x brad</command>
     <result xml:space="preserve">Don't eye him too closely -- he'll cut you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -86,7 +86,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0120F2B0">
+  <item nodeId="node-0x0121C948">
     <command xml:space="preserve">kiss brad</command>
     <result xml:space="preserve">You can only do that to something animate.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -94,7 +94,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0120F3C8">
+  <item nodeId="node-0x0121CA60">
     <command xml:space="preserve">x stub</command>
     <result xml:space="preserve">This is a ticket to see an Improvised Text Adventure at the Hideout Theatre!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -102,10 +102,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0120F510"/>
+      <child nodeId="node-0x0121CBA8"/>
     </children>
   </item>
-  <item nodeId="node-0x0120F510">
+  <item nodeId="node-0x0121CBA8">
     <command xml:space="preserve">get it</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -113,10 +113,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0120F6B0"/>
+      <child nodeId="node-0x0121CD48"/>
     </children>
   </item>
-  <item nodeId="node-0x0120F6B0">
+  <item nodeId="node-0x0121CD48">
     <command xml:space="preserve">give it to brad</command>
     <result xml:space="preserve">You can only do that to something animate.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -124,10 +124,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0120F840"/>
+      <child nodeId="node-0x0121CED8"/>
     </children>
   </item>
-  <item nodeId="node-0x0120F840">
+  <item nodeId="node-0x0121CED8">
     <command xml:space="preserve">x brad</command>
     <result xml:space="preserve">Don't eye him too closely -- he'll cut you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -135,7 +135,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0120F990">
+  <item nodeId="node-0x0121D028">
     <command xml:space="preserve">get stub</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -143,11 +143,11 @@
     <changed>NO</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x0120FA80"/>
-      <child nodeId="node-0x01207CE0"/>
+      <child nodeId="node-0x0121D118"/>
+      <child nodeId="node-0x0121D778"/>
     </children>
   </item>
-  <item nodeId="node-0x0120FA80">
+  <item nodeId="node-0x0121D118">
     <command xml:space="preserve">give stub to brad</command>
     <result xml:space="preserve">Brad doesn't seem interested.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -155,10 +155,10 @@
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x0120FBF8"/>
+      <child nodeId="node-0x0121D290"/>
     </children>
   </item>
-  <item nodeId="node-0x0120FBF8">
+  <item nodeId="node-0x0121D290">
     <command xml:space="preserve">kiss brad</command>
     <result xml:space="preserve">Keep your mind on the game.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -166,10 +166,10 @@
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x0120FD70"/>
+      <child nodeId="node-0x0121D408"/>
     </children>
   </item>
-  <item nodeId="node-0x0120FD70">
+  <item nodeId="node-0x0121D408">
     <command xml:space="preserve">kiss him</command>
     <result xml:space="preserve">Keep your mind on the game.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -177,10 +177,10 @@
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x0120FF00"/>
+      <child nodeId="node-0x0121D598"/>
     </children>
   </item>
-  <item nodeId="node-0x0120FF00">
+  <item nodeId="node-0x0121D598">
     <command xml:space="preserve">enter the theater</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -188,7 +188,7 @@
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x01207CE0">
+  <item nodeId="node-0x0121D778">
     <command xml:space="preserve">look at stub</command>
     <result xml:space="preserve">This is a ticket to see an Improvised Text Adventure at the Hideout Theatre!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -196,10 +196,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01207E08"/>
+      <child nodeId="node-0x0121D8A0"/>
     </children>
   </item>
-  <item nodeId="node-0x01207E08">
+  <item nodeId="node-0x0121D8A0">
     <command xml:space="preserve">say hi to brad</command>
     <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -207,10 +207,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01207FA0"/>
+      <child nodeId="node-0x0121DA38"/>
     </children>
   </item>
-  <item nodeId="node-0x01207FA0">
+  <item nodeId="node-0x0121DA38">
     <command xml:space="preserve">look brad</command>
     <result xml:space="preserve">Don't eye him too closely -- he'll cut you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -218,10 +218,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x012080B8"/>
+      <child nodeId="node-0x0121DB50"/>
     </children>
   </item>
-  <item nodeId="node-0x012080B8">
+  <item nodeId="node-0x0121DB50">
     <command xml:space="preserve">verbose</command>
     <result xml:space="preserve">The Hideout is now in its "verbose" mode, which always gives long descriptions of locations (even if you've been there before).&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -229,10 +229,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x012081C8"/>
+      <child nodeId="node-0x0121DC60"/>
     </children>
   </item>
-  <item nodeId="node-0x012081C8">
+  <item nodeId="node-0x0121DC60">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">7th-and-Congress&#x000A;You are in downtown Austin, TX. To the east is The Hideout Theatre &amp; Coffeehouse.&#x000A;&#x000A;You can see Brad here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -240,10 +240,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x012084B0"/>
+      <child nodeId="node-0x0121DF48"/>
     </children>
   </item>
-  <item nodeId="node-0x012084B0">
+  <item nodeId="node-0x0121DF48">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">&#x000A;Hideout Coffeehouse&#x000A;A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner. To the east is a stairwell.&#x000A;&#x000A;You can see Carl here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -251,10 +251,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01208648"/>
+      <child nodeId="node-0x0120E3B8"/>
     </children>
   </item>
-  <item nodeId="node-0x01208648">
+  <item nodeId="node-0x0120E3B8">
     <command xml:space="preserve">look carl</command>
     <result xml:space="preserve">Carl wears a wistful smile and khaki shorts.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -262,10 +262,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01208770"/>
+      <child nodeId="node-0x0120E4E0"/>
     </children>
   </item>
-  <item nodeId="node-0x01208770">
+  <item nodeId="node-0x0120E4E0">
     <command xml:space="preserve">say hi to carl</command>
     <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -273,10 +273,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x012088F8"/>
+      <child nodeId="node-0x0120E668"/>
     </children>
   </item>
-  <item nodeId="node-0x012088F8">
+  <item nodeId="node-0x0120E668">
     <command xml:space="preserve">get bagel dogs</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -284,10 +284,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01208A80"/>
+      <child nodeId="node-0x0120E7F0"/>
     </children>
   </item>
-  <item nodeId="node-0x01208A80">
+  <item nodeId="node-0x0120E7F0">
     <command xml:space="preserve">get pastries</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -295,10 +295,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01208C00"/>
+      <child nodeId="node-0x0120E970"/>
     </children>
   </item>
-  <item nodeId="node-0x01208C00">
+  <item nodeId="node-0x0120E970">
     <command xml:space="preserve">get coffees</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -306,10 +306,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01208D80"/>
+      <child nodeId="node-0x0120EAF0"/>
     </children>
   </item>
-  <item nodeId="node-0x01208D80">
+  <item nodeId="node-0x0120EAF0">
     <command xml:space="preserve">get dogs</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -317,10 +317,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01208F00"/>
+      <child nodeId="node-0x0120EC70"/>
     </children>
   </item>
-  <item nodeId="node-0x01208F00">
+  <item nodeId="node-0x0120EC70">
     <command xml:space="preserve">look dogs</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -328,10 +328,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x012091E8"/>
+      <child nodeId="node-0x0120EF58"/>
     </children>
   </item>
-  <item nodeId="node-0x012091E8">
+  <item nodeId="node-0x0120EF58">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Hideout Coffeehouse&#x000A;A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner. To the east is a stairwell.&#x000A;&#x000A;You can see Carl here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -339,10 +339,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x012092F8"/>
+      <child nodeId="node-0x0120F068"/>
     </children>
   </item>
-  <item nodeId="node-0x012092F8">
+  <item nodeId="node-0x0120F068">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -350,10 +350,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01209408"/>
+      <child nodeId="node-0x0120F178"/>
     </children>
   </item>
-  <item nodeId="node-0x01209408">
+  <item nodeId="node-0x0120F178">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">&#x000A;Stairway&#x000A;You find yourself on a narrow stairway with a mural painted along one wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -361,10 +361,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01209790"/>
+      <child nodeId="node-0x0120F500"/>
     </children>
   </item>
-  <item nodeId="node-0x01209790">
+  <item nodeId="node-0x0120F500">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">&#x000A;Foyer&#x000A;This is a small foyer at the top of the stairs.  Roy sits at a small desk, holding a fancy hole punch.  To the east is the theater space.  To the west is the green room.  To the south is a small bathroom.  To the north is a locked door.&#x000A;&#x000A;You can see an office door and a man named Roy here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -372,10 +372,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x012098B0"/>
+      <child nodeId="node-0x0120F620"/>
     </children>
   </item>
-  <item nodeId="node-0x012098B0">
+  <item nodeId="node-0x0120F620">
     <command xml:space="preserve">look roy</command>
     <result xml:space="preserve">A crazed hobo, reeking of home-stilled hooch, Roy eyes you with the wary conviction that you might be the source of the voices in his head.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -383,10 +383,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x012099C8"/>
+      <child nodeId="node-0x0120F738"/>
     </children>
   </item>
-  <item nodeId="node-0x012099C8">
+  <item nodeId="node-0x0120F738">
     <command xml:space="preserve">get all</command>
     <result xml:space="preserve">silver key: That seems to belong to the man named Roy.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -394,10 +394,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01209B68"/>
+      <child nodeId="node-0x0120F8D8"/>
     </children>
   </item>
-  <item nodeId="node-0x01209B68">
+  <item nodeId="node-0x0120F8D8">
     <command xml:space="preserve">ask roy for key</command>
     <result xml:space="preserve">The man named Roy has better things to do.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -405,10 +405,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01209CB0"/>
+      <child nodeId="node-0x0120FA20"/>
     </children>
   </item>
-  <item nodeId="node-0x01209CB0">
+  <item nodeId="node-0x0120FA20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">&#x000A;Green Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -416,10 +416,10 @@
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x01209DF8"/>
+      <child nodeId="node-0x0120FB68"/>
     </children>
   </item>
-  <item nodeId="node-0x01209DF8">
+  <item nodeId="node-0x0120FB68">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Green Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -427,7 +427,7 @@
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
   </item>
-  <item nodeId="node-0x01209F40">
+  <item nodeId="node-0x0120FCB0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Hideout&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -435,7 +435,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0120A0C0">
+  <item nodeId="node-0x0120FE30">
     <command xml:space="preserve">go hideout</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -443,10 +443,10 @@
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x0120A258"/>
+      <child nodeId="node-0x0120FFC8"/>
     </children>
   </item>
-  <item nodeId="node-0x0120A258">
+  <item nodeId="node-0x0120FFC8">
     <command xml:space="preserve">go hideout coffeehouse</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -454,10 +454,10 @@
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x0120A510"/>
+      <child nodeId="node-0x01210280"/>
     </children>
   </item>
-  <item nodeId="node-0x0120A510">
+  <item nodeId="node-0x01210280">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">&#x000A;Hideout Coffeehouse&#x000A;A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner.&#x000A;&#x000A;You can see Carl here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -465,10 +465,10 @@
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x0120A6A8"/>
+      <child nodeId="node-0x01210418"/>
     </children>
   </item>
-  <item nodeId="node-0x0120A6A8">
+  <item nodeId="node-0x01210418">
     <command xml:space="preserve">look carl</command>
     <result xml:space="preserve">Carl wears a wistful smile and khaki shorts.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -476,7 +476,7 @@
     <changed>YES</changed>
     <temporary score="31">YES</temporary>
   </item>
-  <item nodeId="node-0x0120A838">
+  <item nodeId="node-0x012105A8">
     <command xml:space="preserve">x brad</command>
     <result xml:space="preserve">Don't eye him too closely -- he'll cut you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -484,11 +484,11 @@
     <changed>NO</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x0120A9B0"/>
-      <child nodeId="node-0x0120ADA0"/>
+      <child nodeId="node-0x01210720"/>
+      <child nodeId="node-0x01210AA8"/>
     </children>
   </item>
-  <item nodeId="node-0x0120A9B0">
+  <item nodeId="node-0x01210720">
     <command xml:space="preserve">x stub</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -496,10 +496,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0120AC18"/>
+      <child nodeId="node-0x01210988"/>
     </children>
   </item>
-  <item nodeId="node-0x0120AC18">
+  <item nodeId="node-0x01210988">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Hideout&#x000A;Before you stands the Hideout Theatre, a coffeeshop/improv theater.&#x000A;&#x000A;There is a paper stub at your feet.&#x000A;&#x000A;You can also see a man named Brad here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -507,7 +507,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0120ADA0">
+  <item nodeId="node-0x01210AA8">
     <command xml:space="preserve">kiss him</command>
     <result xml:space="preserve">Brad evades your clumsy advances.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -515,13 +515,13 @@
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x01210068"/>
-      <child nodeId="node-0x012101C0"/>
-      <child nodeId="node-0x012107B8"/>
-      <child nodeId="node-0x01211210"/>
+      <child nodeId="node-0x01210BD8"/>
+      <child nodeId="node-0x01210D30"/>
+      <child nodeId="node-0x01211328"/>
+      <child nodeId="node-0x01211D80"/>
     </children>
   </item>
-  <item nodeId="node-0x01210068">
+  <item nodeId="node-0x01210BD8">
     <command xml:space="preserve">give him the stub</command>
     <result xml:space="preserve">(first taking the paper stub)&#x000A;Brad doesn't seem interested.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -529,7 +529,7 @@
     <changed>NO</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0x012101C0">
+  <item nodeId="node-0x01210D30">
     <command xml:space="preserve">get the stub</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -537,10 +537,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01210390"/>
+      <child nodeId="node-0x01210F00"/>
     </children>
   </item>
-  <item nodeId="node-0x01210390">
+  <item nodeId="node-0x01210F00">
     <command xml:space="preserve">read it</command>
     <result xml:space="preserve">This is a ticket to see an Improvised Text Adventure at the Hideout Theatre!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -548,10 +548,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01210518"/>
+      <child nodeId="node-0x01211088"/>
     </children>
   </item>
-  <item nodeId="node-0x01210518">
+  <item nodeId="node-0x01211088">
     <command xml:space="preserve">give it to him</command>
     <result xml:space="preserve">Brad doesn't seem interested.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -559,10 +559,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x012106A8"/>
+      <child nodeId="node-0x01211218"/>
     </children>
   </item>
-  <item nodeId="node-0x012106A8">
+  <item nodeId="node-0x01211218">
     <command xml:space="preserve">enter the theater</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -570,7 +570,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x012107B8">
+  <item nodeId="node-0x01211328">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -578,10 +578,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01210AA0"/>
+      <child nodeId="node-0x01211610"/>
     </children>
   </item>
-  <item nodeId="node-0x01210AA0">
+  <item nodeId="node-0x01211610">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Hideout Coffeehouse&#x000A;A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner. To the east is a stairwell.&#x000A;&#x000A;You can see Carl here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -589,10 +589,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01210C30"/>
+      <child nodeId="node-0x012117A0"/>
     </children>
   </item>
-  <item nodeId="node-0x01210C30">
+  <item nodeId="node-0x012117A0">
     <command xml:space="preserve">x carl</command>
     <result xml:space="preserve">Carl wears a wistful smile and khaki shorts.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -600,10 +600,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01210DB8"/>
+      <child nodeId="node-0x01211928"/>
     </children>
   </item>
-  <item nodeId="node-0x01210DB8">
+  <item nodeId="node-0x01211928">
     <command xml:space="preserve">x bagel dogs</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -611,10 +611,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01210F40"/>
+      <child nodeId="node-0x01211AB0"/>
     </children>
   </item>
-  <item nodeId="node-0x01210F40">
+  <item nodeId="node-0x01211AB0">
     <command xml:space="preserve">x long counter</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -622,10 +622,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x012110C0"/>
+      <child nodeId="node-0x01211C30"/>
     </children>
   </item>
-  <item nodeId="node-0x012110C0">
+  <item nodeId="node-0x01211C30">
     <command xml:space="preserve">x counter</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -633,7 +633,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x01211210">
+  <item nodeId="node-0x01211D80">
     <command xml:space="preserve">get stub</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -641,10 +641,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01211338"/>
+      <child nodeId="node-0x01211EA8"/>
     </children>
   </item>
-  <item nodeId="node-0x01211338">
+  <item nodeId="node-0x01211EA8">
     <command xml:space="preserve">give it to brad</command>
     <result xml:space="preserve">Brad says, "No thanks, I've already got a ticket."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -652,10 +652,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x012114C8"/>
+      <child nodeId="node-0x01212038"/>
     </children>
   </item>
-  <item nodeId="node-0x012114C8">
+  <item nodeId="node-0x01212038">
     <command xml:space="preserve">x brad</command>
     <result xml:space="preserve">Don't eye him too closely -- he'll cut you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -663,10 +663,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01211628"/>
+      <child nodeId="node-0x01212198"/>
     </children>
   </item>
-  <item nodeId="node-0x01211628">
+  <item nodeId="node-0x01212198">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -674,10 +674,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01211960"/>
+      <child nodeId="node-0x012124D0"/>
     </children>
   </item>
-  <item nodeId="node-0x01211960">
+  <item nodeId="node-0x012124D0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">Hideout Coffeehouse&#x000A;A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner. The theater is above the coffeehouse, accessible via a stairway.&#x000A;&#x000A;You can see Carl here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -685,7 +685,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x01211AB0">
+  <item nodeId="node-0x01212620">
     <command xml:space="preserve">take paper</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -693,10 +693,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x01211D98"/>
+      <child nodeId="node-0x01212908"/>
     </children>
   </item>
-  <item nodeId="node-0x01211D98">
+  <item nodeId="node-0x01212908">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">&#x000A;Hideout Coffeehouse&#x000A;A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner. To the east is a stairwell.&#x000A;&#x000A;You can see Carl here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -704,10 +704,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x01211F80"/>
+      <child nodeId="node-0x01209D70"/>
     </children>
   </item>
-  <item nodeId="node-0x01211F80">
+  <item nodeId="node-0x01209D70">
     <command xml:space="preserve">go up</command>
     <result xml:space="preserve">&#x000A;Stairway&#x000A;You find yourself on a narrow stairway with a mural painted along one wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -715,10 +715,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x01212310"/>
+      <child nodeId="node-0x0120A100"/>
     </children>
   </item>
-  <item nodeId="node-0x01212310">
+  <item nodeId="node-0x0120A100">
     <command xml:space="preserve">go up</command>
     <result xml:space="preserve">&#x000A;Foyer&#x000A;This is a small foyer at the top of the stairs.  Roy sits at a small desk, holding a fancy hole punch.  To the east is the theater space.  To the west is the green room.  To the south is a small bathroom.  To the north is a locked door.&#x000A;&#x000A;You can see an office door and a man named Roy here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -726,10 +726,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x01212480"/>
+      <child nodeId="node-0x0120A270"/>
     </children>
   </item>
-  <item nodeId="node-0x01212480">
+  <item nodeId="node-0x0120A270">
     <command xml:space="preserve">say hi to roy</command>
     <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -737,10 +737,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x012126D8"/>
+      <child nodeId="node-0x0120A4C8"/>
     </children>
   </item>
-  <item nodeId="node-0x012126D8">
+  <item nodeId="node-0x0120A4C8">
     <command xml:space="preserve">look roy</command>
     <result xml:space="preserve">A crazed hobo, reeking of home-stilled hooch, Roy eyes you with the wary conviction that you might be the source of the voices in his head.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -748,10 +748,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x01212820"/>
+      <child nodeId="node-0x0120A610"/>
     </children>
   </item>
-  <item nodeId="node-0x01212820">
+  <item nodeId="node-0x0120A610">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">&#x000A;Green Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -759,10 +759,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x01212970"/>
+      <child nodeId="node-0x0120A760"/>
     </children>
   </item>
-  <item nodeId="node-0x01212970">
+  <item nodeId="node-0x0120A760">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Green Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -770,10 +770,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x01212CF8"/>
+      <child nodeId="node-0x0120AAE8"/>
     </children>
   </item>
-  <item nodeId="node-0x01212CF8">
+  <item nodeId="node-0x0120AAE8">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">&#x000A;Foyer&#x000A;This is a small foyer at the top of the stairs.  Roy sits at a small desk, holding a fancy hole punch.  To the east is the theater space.  To the west is the green room.  To the south is a small bathroom.  To the north is a locked door.&#x000A;&#x000A;You can see an office door and a man named Roy here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -781,10 +781,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x01212E80"/>
+      <child nodeId="node-0x0120AC70"/>
     </children>
   </item>
-  <item nodeId="node-0x01212E80">
+  <item nodeId="node-0x0120AC70">
     <command xml:space="preserve">take hole punch</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -792,10 +792,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x01212F90"/>
+      <child nodeId="node-0x0120AD80"/>
     </children>
   </item>
-  <item nodeId="node-0x01212F90">
+  <item nodeId="node-0x0120AD80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the office door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -803,10 +803,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x012130B8"/>
+      <child nodeId="node-0x0120AEA0"/>
     </children>
   </item>
-  <item nodeId="node-0x012130B8">
+  <item nodeId="node-0x0120AEA0">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">(with the paper stub)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -814,10 +814,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x01213248"/>
+      <child nodeId="node-0x0120B030"/>
     </children>
   </item>
-  <item nodeId="node-0x01213248">
+  <item nodeId="node-0x0120B030">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">&#x000A;Small Bathroom&#x000A;You can see a time machine here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -825,10 +825,10 @@
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x012133E0"/>
+      <child nodeId="node-0x0120B1C8"/>
     </children>
   </item>
-  <item nodeId="node-0x012133E0">
+  <item nodeId="node-0x0120B1C8">
     <command xml:space="preserve">turn on time machine</command>
     <result xml:space="preserve">You switch the time machine on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -836,7 +836,7 @@
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
-  <item nodeId="node-0x01213578">
+  <item nodeId="node-0x0120B360">
     <command xml:space="preserve">get brad</command>
     <result xml:space="preserve">I don't suppose Brad would care for that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -844,7 +844,7 @@
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x012136F0">
+  <item nodeId="node-0x0120B4D8">
     <command xml:space="preserve">hi brad</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -852,10 +852,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01213880"/>
+      <child nodeId="node-0x0120B668"/>
     </children>
   </item>
-  <item nodeId="node-0x01213880">
+  <item nodeId="node-0x0120B668">
     <command xml:space="preserve">tell brad hello</command>
     <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -863,10 +863,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x012139F8"/>
+      <child nodeId="node-0x0120B7E0"/>
     </children>
   </item>
-  <item nodeId="node-0x012139F8">
+  <item nodeId="node-0x0120B7E0">
     <command xml:space="preserve">say hello to brad</command>
     <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -874,10 +874,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01213B48"/>
+      <child nodeId="node-0x0120B930"/>
     </children>
   </item>
-  <item nodeId="node-0x01213B48">
+  <item nodeId="node-0x0120B930">
     <command xml:space="preserve">get stub</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -885,10 +885,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01213D18"/>
+      <child nodeId="node-0x0120BB00"/>
     </children>
   </item>
-  <item nodeId="node-0x01213D18">
+  <item nodeId="node-0x0120BB00">
     <command xml:space="preserve">x it</command>
     <result xml:space="preserve">This is a ticket to see an Improvised Text Adventure at the Hideout Theatre!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -896,10 +896,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01213E28"/>
+      <child nodeId="node-0x0120BC10"/>
     </children>
   </item>
-  <item nodeId="node-0x01213E28">
+  <item nodeId="node-0x0120BC10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Hideout Coffeehouse&#x000A;This is the coffeehouse.&#x000A;&#x000A;You can see Carl here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -907,10 +907,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01213FA8"/>
+      <child nodeId="node-0x0120BD90"/>
     </children>
   </item>
-  <item nodeId="node-0x01213FA8">
+  <item nodeId="node-0x0120BD90">
     <command xml:space="preserve">x carl</command>
     <result xml:space="preserve">You see nothing special about Carl.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -918,10 +918,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01214118"/>
+      <child nodeId="node-0x0120BF00"/>
     </children>
   </item>
-  <item nodeId="node-0x01214118">
+  <item nodeId="node-0x0120BF00">
     <command xml:space="preserve">x myself</command>
     <result xml:space="preserve">As good-looking as ever.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -929,10 +929,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01214298"/>
+      <child nodeId="node-0x0120C080"/>
     </children>
   </item>
-  <item nodeId="node-0x01214298">
+  <item nodeId="node-0x0120C080">
     <command xml:space="preserve">shout</command>
     <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -940,10 +940,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01214410"/>
+      <child nodeId="node-0x0120C1F8"/>
     </children>
   </item>
-  <item nodeId="node-0x01214410">
+  <item nodeId="node-0x0120C1F8">
     <command xml:space="preserve">xyzzy</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -951,10 +951,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01214598"/>
+      <child nodeId="node-0x0120C380"/>
     </children>
   </item>
-  <item nodeId="node-0x01214598">
+  <item nodeId="node-0x0120C380">
     <command xml:space="preserve">hello sailor</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -962,7 +962,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x012148C8">
+  <item nodeId="node-0x0120C6B0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Hideout Coffeehouse&#x000A;A long counter displays many exotic coffees and pastries. Also there are bagel dogs. A surly group of cartoonists sketch frantically in a corner. The theater is above the coffeehouse, accessible via a stairway.&#x000A;&#x000A;You can see Carl here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -970,11 +970,11 @@
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x01214B40"/>
-      <child nodeId="node-0x01214D60"/>
+      <child nodeId="node-0x0120C928"/>
+      <child nodeId="node-0x0120CBF8"/>
     </children>
   </item>
-  <item nodeId="node-0x01214B40">
+  <item nodeId="node-0x0120C928">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">&#x000A;7th &amp; Congress&#x000A;You are in downtown Austin, TX. To the east is The Hideout Theatre &amp; Coffeehouse.&#x000A;&#x000A;There is a paper stub at your feet.&#x000A;&#x000A;You can also see Brad here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -982,10 +982,10 @@
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x01214C50"/>
+      <child nodeId="node-0x0120CAE8"/>
     </children>
   </item>
-  <item nodeId="node-0x01214C50">
+  <item nodeId="node-0x0120CAE8">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">&#x000A;Hideout Coffeehouse&#x000A;This is the coffeehouse.&#x000A;&#x000A;You can see Carl here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -993,7 +993,7 @@
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
   </item>
-  <item nodeId="node-0x01214D60">
+  <item nodeId="node-0x0120CBF8">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">Stairway&#x000A;You are standing on a long, steep set of stairs with two landings. The walls are dusty, with a few old picture-frame nails ihammered into them.  You see a colorful mural painted along one wall.  At the top of the stairs you see a small room with a ticket table, and you can go downstairs to the coffee shop.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1001,10 +1001,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01215108"/>
+      <child nodeId="node-0x0120CFA0"/>
     </children>
   </item>
-  <item nodeId="node-0x01215108">
+  <item nodeId="node-0x0120CFA0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">Foyer&#x000A;This is a small, L-shaped foyer at the top of the stairs.  Kareem sits at a small desk beneath a pretty chandelier, holding a fancy hole punch.  There are doors to the north, south, east, and west, a steep stairway leading down, and a ladder leading up.&#x000A;&#x000A;You can see an office door and a man named Kareem here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1012,10 +1012,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x012152C8"/>
+      <child nodeId="node-0x0120D160"/>
     </children>
   </item>
-  <item nodeId="node-0x012152C8">
+  <item nodeId="node-0x0120D160">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Kareem blocks your path.  "Can't get in without a ticket!" he shouts.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1023,10 +1023,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x012153D8"/>
+      <child nodeId="node-0x0120D270"/>
     </children>
   </item>
-  <item nodeId="node-0x012153D8">
+  <item nodeId="node-0x0120D270">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Green Room&#x000A;This is a large, spacious, well-lit room with hardwood floors.  There is a door up a short stairway to the east, a door to the west, and a door in the northeast corner of the room. There is a bell here.&#x000A;&#x000A;There are two sets of chairs -- one red, and one black.  The red ones have a sign:  "For Shows Only!"&#x000A;&#x000A;You can also see a bell here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1034,10 +1034,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01215528"/>
+      <child nodeId="node-0x0120D3C0"/>
     </children>
   </item>
-  <item nodeId="node-0x01215528">
+  <item nodeId="node-0x0120D3C0">
     <command xml:space="preserve">get bell</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1045,10 +1045,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x012156B0"/>
+      <child nodeId="node-0x0120D548"/>
     </children>
   </item>
-  <item nodeId="node-0x012156B0">
+  <item nodeId="node-0x0120D548">
     <command xml:space="preserve">x it</command>
     <result xml:space="preserve">You see nothing special about the bell.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1056,10 +1056,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x012157F8"/>
+      <child nodeId="node-0x0120D690"/>
     </children>
   </item>
-  <item nodeId="node-0x012157F8">
+  <item nodeId="node-0x0120D690">
     <command xml:space="preserve">drop it</command>
     <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1067,10 +1067,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x01215C70"/>
+      <child nodeId="node-0x0120DB08"/>
     </children>
   </item>
-  <item nodeId="node-0x01215C70">
+  <item nodeId="node-0x0120DB08">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Catwalk Area&#x000A;You are standing on a metal catwalk that stretches out behind the Hideout Theatre and over the Downstairs Theatre.  You are one story up and can see the tall buildings of downtown Austin surrounding you. To the north you can see 7th street east of Congress. If you walk far enough to the east you can smell the dumpsters in the alley. To the east is a metal staircase leading down. To the west is a door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>

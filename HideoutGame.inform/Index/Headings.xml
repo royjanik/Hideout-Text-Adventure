@@ -18,49 +18,49 @@
     </dict>
     <key>2</key><dict>
         <key>Filename</key><string>C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Source\story.ni</string>
-        <key>Line</key><integer>17</integer>
+        <key>Line</key><integer>19</integer>
         <key>Title</key><string>Section 2 - Basic Geography</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Source\story.ni</string>
-        <key>Line</key><integer>97</integer>
+        <key>Line</key><integer>101</integer>
         <key>Title</key><string>Section 3 - People</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Source\story.ni</string>
-        <key>Line</key><integer>134</integer>
+        <key>Line</key><integer>138</integer>
         <key>Title</key><string>Section 4 - Getting The Whisky</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Source\story.ni</string>
-        <key>Line</key><integer>154</integer>
+        <key>Line</key><integer>160</integer>
         <key>Title</key><string>Section 5 - Entering the Tech Booth</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Source\story.ni</string>
-        <key>Line</key><integer>182</integer>
+        <key>Line</key><integer>192</integer>
         <key>Title</key><string>Section 6 - Turning on the Board</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>7</key><dict>
         <key>Filename</key><string>C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Source\story.ni</string>
-        <key>Line</key><integer>211</integer>
+        <key>Line</key><integer>221</integer>
         <key>Title</key><string>Section 7 - Turning on the Blue Light</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>8</key><dict>
         <key>Filename</key><string>C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Source\story.ni</string>
-        <key>Line</key><integer>223</integer>
+        <key>Line</key><integer>233</integer>
         <key>Title</key><string>Section 8 - Retrieving the Skull</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
@@ -920,6 +920,83 @@
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>131</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>Version 5 of Modified Exit by Emily Short begins here</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>132</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>9</integer>
+        <key>Title</key><string>Section 1 - Leaving a named object</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>133</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>21</integer>
+        <key>Title</key><string>Section 2 - Getting out before taking something</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>134</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>30</integer>
+        <key>Title</key><string>Section 3 - Getting up before walking away</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>135</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>36</integer>
+        <key>Title</key><string>Section 4a - Rising before departure (for use without Rideable Vehicles by Graham Nelson)</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>136</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>44</integer>
+        <key>Title</key><string>Section 4b - Rising before departure (for use with Rideable Vehicles by Graham Nelson)</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>137</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>54</integer>
+        <key>Title</key><string>Section 5 - Implicit exiting defined</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>138</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>64</integer>
+        <key>Title</key><string>Section 6 - Bare Exit Means OUT</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>139</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>72</integer>
+        <key>Title</key><string>Section 7 - Stand Up does NOT mean OUT (for use without Postures by Emily Short)</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>140</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>93</integer>
+        <key>Title</key><string>Section 7a - Stand UP does NOT mean OUT (for use with Postures by Emily Short)</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>141</key><dict>
+        <key>Filename</key><string>C:\Documents and Settings\Peter\My Documents\Inform\Extensions\emily short\modified exit.i7x</string>
+        <key>Line</key><integer>97</integer>
+        <key>Title</key><string>Section 8 - Sequential Action Suppresses Room Description On Exit</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>142</key><dict>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>scene understood is a scene which varies</string>
         <key>Level</key><integer>0</integer>
