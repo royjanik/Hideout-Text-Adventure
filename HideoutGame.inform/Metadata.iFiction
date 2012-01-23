@@ -6,18 +6,19 @@
             <format>zcode</format>
         </identification>
         <bibliographic>
-            <title>The Hideout</title>
+            <title>The Hideout Theatre Adventures: Quest for the Secret Skull</title>
             <author>Peter Rogers et al</author>
-            <headline>An Interactive Fiction</headline>
+            <headline>Thrills and adventure in an Austin-area improv theatre.</headline>
             <genre>Fiction</genre>
             <firstpublished>2012</firstpublished>
+            <description>The Hideout Theatre's skull-on-a-stick has gone missing! Explore the theater, investigate its mysteries, and try not to get killed as you set things to rights.</description>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2012-01-20</releasedate>
+                    <releasedate>2012-01-22</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6G60</compilerversion>
@@ -27,10 +28,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6G60</generatorversion>
-            <originated>2012-01-20</originated>
+            <originated>2012-01-22</originated>
         </colophon>
         <zcode>
-            <serial>120120</serial>
+            <serial>120122</serial>
             <release>1</release>
             <compiler>Inform 7 build 6G60</compiler>
         </zcode>

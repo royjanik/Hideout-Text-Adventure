@@ -10,7 +10,7 @@ release to "C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame M
 
 ! Blorb instructions
 
-storyfile leafname "The Hideout.zblorb"
+storyfile leafname "The Hideout Theatre Adventures-.zblorb"
 storyfile "C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Build\output.z5" include
 ifiction "C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Metadata.iFiction" include
 cover "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
@@ -23,21 +23,21 @@ release file "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Small Cover.
 placeholder [IFID] = "CA4BED2D-AC7D-4DC0-BE5F-24FE57B1CAB5"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2012"
-placeholder [TITLE] = "The Hideout"
+placeholder [TITLE] = "The Hideout Theatre Adventures: Quest for the Secret Skull"
 placeholder [AUTHOR] = "Peter Rogers et al"
-placeholder [BLURB] = "A work of interactive fiction."
+placeholder [BLURB] = "The Hideout Theatre's skull-on-a-stick has gone missing! Explore the theater, investigate its mysteries, and try not to get killed as you set things to rights."
 
 ! Other material to release
 
 
 ! Website instructions
 
-placeholder [ENCODEDSTORYFILE] = "The Hideout.zblorb.js"
+placeholder [ENCODEDSTORYFILE] = "The Hideout Theatre Adventures-.zblorb.js"
 template path "C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame Materials\Templates"
 template path "C:\Documents and Settings\Peter\My Documents\Inform\Templates"
 template path "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Templates"
 interpreter "Parchment" "z"
-base64 "C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Build\output.z5" to "C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame Materials\Release\interpreter\The Hideout.zblorb.js"
+base64 "C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame.inform\Build\output.z5" to "C:\Documents and Settings\Peter\Hideout-Text-Adventure\HideoutGame Materials\Release\interpreter\The Hideout Theatre Adventures-.zblorb.js"
 
 ! Website instructions
 
@@ -46,7 +46,7 @@ template path "C:\Documents and Settings\Peter\My Documents\Inform\Templates"
 template path "C:\Program Files\Inform 7\Inform7\Extensions\Reserved\Templates"
 css
 website "Standard"
-status instruction ||&nbsp;<a href="source:story.ni#line8"><img border=0 src=inform:/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line13"><img border=0 src=inform:/Reveal.png></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc391.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
