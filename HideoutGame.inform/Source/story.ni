@@ -4,7 +4,7 @@
 Section 1 - Global Settings
 [Tech-y things that apply throughout the whole game.]
 
-The story headline is "Thrills and adventure in an Austin-area improv theatre."
+The story headline is "Thrills and adventure in an Austin-area improv theatre!"
 
 The story description is "The Hideout Theatre's skull-on-a-stick has gone missing!  Explore the theater, investigate its mysteries, and try not to get killed as you set things to rights."
 
@@ -45,7 +45,7 @@ Carry out asking for help (this is the help request rule):
 
 Table of Basic Help Options
 title	subtable	description	toggle
-"Introduction to [story title]"	a table-name	"[bold type][story title][roman type][paragraph break]For this game in particular, remember that you can talk to people:  'ASK <person> ABOUT <topic>' is always an option, and one you'll have to use often.  (For example, you can 'ASK BRAD ABOUT SEX', though that's not partiuclarly useful to the game.)  Also note:  for some reason, 'ASK <person> ABOUT [bold type]THE[roman type] <topic>' still doesn't work in this game.[paragraph break]Remember to examine everything and to go everywhere; if worse comes to worst, but Peter for hints."	a rule
+"Introduction to [story title]"	a table-name	"[bold type][story title][roman type][paragraph break]For this game in particular, remember that you can talk to people:  'ASK <person> ABOUT <topic>' is always an option, and one you'll have to use often.  (For example, you can 'ASK BRAD ABOUT SEX', though that's not particularly useful to the game.)[paragraph break]Remember to examine everything and to go everywhere; if worse comes to worst, but Peter for hints."	a rule
 "Instructions for Playing IF in General"	Table of Instruction Options	--	--
 
 
@@ -84,7 +84,7 @@ title	subtable	description	toggle
 Table of Basic Help Options (continued)
 title	subtable	description	toggle
 "Credits"	--	"This was written using Inform 7, which is the work of Graham Nelson.  This particular game was designed by Peter Rogers, Marc Majcher, and Kevin Miller, and coded by Peter Rogers.  This help system was cribbed from Emily Short."	--
-"Contacting the Author"	--	"If you have any difficulties with [story title], feel free to contact me at peter@austinimprov.com."
+"Contacting the Author"	--	"If you have any difficulties with [story title], feel free to contact me at peter@austinimprov.com."	--
 
 
 Section 3 - Basic Geography
@@ -98,7 +98,7 @@ The sky is scenery in the Hideout Entryway.  "The sky is an ominous red color, w
 
 Instead of taking the sky:  say "You can't take that.  (And while we're at it, you can't boil the sea, either.)"
 
-The theater is a backdrop.  It is everywhere.
+The theater is a backdrop.  It is everywhere.  Understand "theater", "hideout", "hideout theater" as the theater.  The description of the theater is "The Hideout Theatre is an improv theater in the heart of downtown Austin.  It has shows Thursday through Friday, offers classes, and includes a lovely café."
 
 Instead of entering the theater when the player is in the Hideout Entryway:  try going inside.
 
@@ -128,24 +128,38 @@ Instead of going outside in the Tech Booth, try going south.
 
 The Green Room is east of the Foyer.  "This is a spacious, well-lit room with hardwood floors.  There is a door up a short stairway to the east, a door to the west, and a door in the northeast corner of the room."
 
-Some chairs are an object in the Green Room.  "There are two sets of chairs -- one red, and one black.  The red ones have a sign:  'For Shows Only!'"
+Some chairs are an object in the Green Room.  The description of the chairs is "There are two sets of chairs -- one red, and one black.  The red ones have a sign:  'For Shows Only!'".
 
 Instead of taking some chairs:  say "The chairs are far too heavy to take."
 
-A bell is an object in the Green Room.
+A bell is an object in the Green Room.  The description of the bell is "An unremarkable chromed bell like you'd see at an old-timey service desk.  This bell is no doubt used in improv games like 'New Choice' and 'More British'."
 
 Instead of exiting when the player is in the Green Room:  try going east.
+Instead of going outside in the Green Room, try going east.
 
 
 The Closet is northeast of the Green Room.  "This is a small closet packed with a useful supplies for running a theatre. There is a door to the west."  Southwest of the Closet is nowhere.  West of the Closet is the Green Room.
 
-A swiffer is an object in the Closet.
+A swiffer is an object in the Closet.  The description of the swiffer is "It's an ordinary swiffer.  It possesses no special powers, and has no use beyond somewhat-ineffectually dusting things."
+
+Test getduster with "in / u / u / e / ne / get swiffer".
+
+Understand the command "dust" as something new.
+Dusting is an action applying to one visible thing.
+Understand "dust [something]" as dusting.
+Check dusting:
+	if the swiffer is not carried, say "You'd need some sort of dusting tool for that, right?" instead;
+	if the noun is the player, say "You dust yourself off." instead;
+	if the noun is a person, say "I don't think [the noun] would appreciate being dusted." instead;
+	if the noun is the swiffer, say "I think only M. C. Escher could use a swiffer to dust itself." instead.
+		
+Report dusting:  say "You dust [the noun], feeling a vague suspicion that running around dusting things will in no way help you abolish the Hideout's supernatural curse."
 
 
 The Catwalk Area is above the Green Room.  The Catwalk Area is east of the Green Room.  "You are standing on a metal catwalk that stretches out behind the
 Hideout Theatre and over the Downstairs Theatre.  You are one story up and can see the tall buildings of downtown Austin surrounding you. To the north you can see 7th street east of Congress. If you walk far enough to the east you can smell the dumpsters in the alley. To the east is a metal staircase leading down. To the west is a door."
 
-The metal catwalk is scenery in The Catwalk Area.  "The catwalk is metal-lattice with railings.  It's rather noisy."
+The metal catwalk is scenery in The Catwalk Area.  "The catwalk is a metal lattice with railings.  It's rather noisy."
 
 Instead of entering the theater when the player is in the Catwalk Area:  try going west.
 
@@ -187,23 +201,33 @@ Section 4 - People
 
 Brad is a man in the Hideout Entryway.  The description of Brad is "Brad Hawkins is a bald, bearded, bespectacled man, neatly dressed and regarding the sky above with some trepidation."
 
-After asking Brad about a topic listed in the Table of Brad's Replies, say "[Reply entry][paragraph break]"
+After asking Brad about a topic listed in the Table of Brad's Replies, say "[Reply entry][paragraph break]".
+After asking Brad about a topic, say "Brad just stares at you enigmatically for a long, uncomfortable beat.".
+
+Understand "sky", "clouds", "the sky" ,"the clouds", "weather" and "the weather" as "[sky]".
+Understand "skull", "skull on a stick", "the skull", "the skull on a stick", "the skull-on-a-stick" as "[skull]".
+Understand "Brad" and "Brad Hawkins" as "[Brad]".
+Understand "Roy", "Roy Janik", and "Roy Danger" as "[Roy]".
+Understand "Kaci", "Kaci Beeler", and "Kaci Danger" as "[Kaci]".
+Understand "grue", "grues", and "the grues" as "[grue]".
+Understand "ticket", "the ticket" as "[ticket]".
 
 Table of Brad's Replies
 Topic	Reply
-"sky/clouds"	"Brad gives the clouds another worried glance.  'It's looked like that ever since we lost the skull-on-a-stick.  Roy claims it's thrown our whole magic of theater into disarray.'"
-"skull/skull-on-a-stick"	"Brad smiles broadly.  'Ah, the magical talisman of the Hideout Theatre.  Nobody knows where it came from, and nobody knows what eldritch powers it contains.  More to the point, nobody knows where it is.'"
+"[sky]"	"Brad gives the clouds another worried glance.  'It's looked like that ever since we lost the skull-on-a-stick.  Roy claims it's thrown our whole magic of theater into disarray.'"
+"[skull]"	"Brad smiles broadly.  'Ah, the magical talisman of the Hideout Theatre.  Nobody knows where it came from, and nobody knows what eldritch powers it contains.  More to the point, nobody knows where it is.'"
 "sex"	"Brad just quirks an eyebrow at you."
 "backstage"	"He stops you mid-sentence with a raised hand.  'All I know is, I don't go back there.  Since losing the skull, the Hideout has had a bit of a grue problem."
-"grue/grues"	"Brad shivers involuntarily, but says nothing."
-"Roy"	"'Roy helps run the Hideout.  Just follow the sound of goofy laughter and the general feeling of good-natured support; you can't miss him."
-"himself/Brad/Brad Hawkins"	"Brad Hawkins?  Some say he was a drifter who came from nowhere and was headed for oblivion.  Some say he was a myth so often told and retold, he became real.  I prefer to think of him as an improvisor with an unhealthy addiction to breakfast tacos.'"
-"Kaci"	"'Did you see that latest set she painted?  Crazy.'"
-"Kareem"	"'My description depends on whether he's drunk.'"
-"Drunk Kareem"	"'He's fairly agreeable."
-"Sober Kareem/Not-Drunk Kareem"	"'Don't try to get any favors out of sober Kareem.'"
+"[grue]"	"Brad shivers involuntarily, but says nothing."
+"[Roy]"	"'Roy helps run the Hideout.  Just follow the sound of goofy laughter and the general feeling of good-natured support; you can't miss him."
+"himself" or "[Brad]"	"Brad Hawkins?  Some say he was a drifter who came from nowhere and was headed for oblivion.  Some say he was a myth so often told and retold, he became real.  I prefer to think of him as an improvisor with an unhealthy addiction to breakfast tacos.'"
+"[Kaci]"	"'Did you see that latest set she painted?  Crazy.'"
+"Kareem"	"'My description depends on whether he's drunk or sober.'"
+"Drunk Kareem"	"'He's fairly agreeable.'"
+"Sober/Not-Drunk Kareem"	"'Don't try to get any favors out of sober Kareem.'"
 "life"	"'Life?  Don't ask me about life.'"
 "me/myself"	"'You seem a little hung over.  Or no -- maybe you always look like that?'"
+"[ticket]"	"'Fat lot of good a ticket will do you now.  All the shows are cancelled until we get these supernatural shenanigans sorted out!'"
 
 Instead of kissing Brad, say "Brad evades your clumsy advances."
 
@@ -212,7 +236,8 @@ Instead of giving the ticket to Brad, say "Brad says, What's the use?  The show'
 
 Inside The Hideout Coffeehouse is a man called Carl. The description of Carl is "Carl wears a wistful smile and khaki shorts.  He spends most of his time expertly mixing drinks with his espresso machines and his collection of bottled syrups."  The espresso machines are scenery in the coffeehouse.
 
-After asking Carl about a topic listed in the Table of Carl's Replies, say "[Reply entry]"
+After asking Carl about a topic listed in the Table of Carl's Replies, say "[Reply entry]".
+After asking Carl about a topic, say "Carl thinks a moment, then says, 'I'm afraid I don't know much about that.'".
 
 Table of Carl's Replies
 Topic	Reply
@@ -220,6 +245,8 @@ Topic	Reply
 "syrups"	"'I use those to prepare some of the fancier concoctions.'"
 "life"	"'It's pretty good.'"
 "me/myself"	"'You're alright, friend.'"
+"sex"	"Carl looks a bit offended."
+"improv"	"Carl says, 'I've seen a few shows here and there.  Fun!'"
 
 
 Inside the Foyer is a man called Kareem.  The description of Kareem is "A bearded gentleman in a three-piece suit, Kareem looks [if agreeable]slightly-buzzed, and content[otherwise]sober and grouchy[end if]."
@@ -237,18 +264,21 @@ Topic	Reply	Drunk Reply
 "grue/grues/the grues"	"'I know about them, alright?  I'm working on it.  It's on the list of tasks to do for the Hideout, which is as long as my arm.  I've called an exterminator, but he's not called me back, so... I just don't know.  Okay?'"	"He lurches unsteadily to his feet just long enough to shout 'BASTARDS!' in the general direction of the theater."
 "skull/skull-on-a-stick/the skull/the skull-on-a-stick"	"'It's a talisman, mounted on a stick, that has supposedly magical powers.  What's so hard to understand here?'"	"Kareem suddenly bursts into tears.  'IT'S GONE,' he moans, 'and now it'll open the gates of hell or something.'   He goes on, mostly indecipherable except for a few phrases about 'dogs and cats, living together' and 'mass hysteria'."
 "me/myself"	"He shrugs.  'You seem alright,' he says."	"'You... you brought me whisky.  I will call you 'he-who-brings-me-whisky.'"
+"improv"	"'I prefer to call them [']wacky-town make-em-ups[']."	"He punches a fist towards the sky.  'IMPROV!' he shouts."
 
 
-Kaci is a woman in the Stage.  Kaci carries a paintbrush.  The description of Kaci is "A pale twentysomething in neat and curiously-out-of-time attire, Kaci paces intently, not paying much attention to her surroundings."
+Kaci is a woman in the Stage.  Kaci carries a paintbrush.  The description of Kaci is "A pale twentysomething in neat and curiously-out-of-time attire, Kaci paces intently, not paying much attention to her surroundings.".
 
-After asking Kaci about a topic, say "'Can't talk.  Gotta destroy this curse.'"
+After asking Kaci about a topic, say "'Can't talk.  Gotta destroy this curse.'".
 
 
-Roy is a man in the Stage.  The description of Roy is "Even under these dire circumstances, Roy is best described as 'a ball of cheerful energy with shoes.'  He must be optimistic about saving the theater."
+Roy is a man in the Stage.  The description of Roy is "Even under these dire circumstances, Roy is best described as 'a ball of cheerful energy with shoes.'  He must be optimistic about saving the theater.".
 
-After asking Roy about a topic when the player does not carry the skull, say "Roy asks, 'Have you found the skull yet?'  You sense that this is the only thing he will say to you."
+After asking Roy about a topic when the player does not carry the skull, say "Roy asks, 'Have you found the skull yet?'  You sense that this is the only thing he will say to you.".
 
-After asking Roy about a topic when the player carries the skull, say "Roy says, 'You found the skull!  Quick, gimme!'"
+After asking Roy about a topic when the player carries the skull, say "Roy says, 'You found the skull!  Quick, gimme!'".
+
+Instead of showing the skull to Roy, say "Roy says, 'You found the skull!  Quick, gimme!'".
 
 
 Section 5 - Getting The Whisky
@@ -257,7 +287,7 @@ Section 5 - Getting The Whisky
 [Each of these test procedures accomplishes one step of the game and returns you to the Hideout Entryway.]
 test whisky with "in / ask carl about paintings / x syrups / ask carl about whisky / out"
 
-The bottle of whisky is fixed in place.  Understand "whiskey" as whisky.
+The bottle of whisky is fixed in place.  Understand "whiskey", "bottle of whiskey" as whisky.
 
 The bottled syrups are scenery in the Coffeehouse.  The description of the bottled syrups is "These are a collection of bottled syrups of various flavors.  [first time]Looking closer, you espy a bottle of whisky hidden amongst the syrups! [only]"
 
@@ -279,7 +309,7 @@ Section 6 - Entering the Tech Booth
 
 test keypad with "in / u / u / give whisky to kareem / ask kareem about keypad / u / type 3497 on the keypad / open door / in / out / d / d / d / out" holding the whisky.
 
-The keypad is an object in the Top of the Ladder.  "This keypad lets you enter a series of numbers.  Presumably if you type the correct code on the keypad, it will unlock the adjacent door."  The keypad is fixed in place.
+The keypad is an object in the Top of the Ladder.  The description of the keypad is "This keypad lets you enter a series of numbers.[if the tech door is locked]  Presumably if you type the correct code on the keypad, it will unlock the adjacent door.[end if]".  The keypad is fixed in place.
 
 The keypad code is a number that varies.  The keypad code is 0.
 
@@ -348,8 +378,9 @@ The lighting board is a device.  It is fixed in place in the Tech Booth.  The de
 Check switching on the lighting board:
 	If the board switch is switched off, say "You try fiddling with the power switch for the lighting board, but nothing happens.  Apparently, it's plugged in, but it's not getting any power." instead.
 	
-After switching on the lighting board:  now the Backstage is lit.
-After switching off the lighting board:  now the Backstage is dark.
+After switching on the lighting board:  say "There's a faint electrical hum and little indicator LEDs flicker into life.  Looks like you've turned on the light board!"; now the Backstage is lit.
+
+After switching off the lighting board:  say "The board powers down."; now the Backstage is dark.
 
 
 Section 9 - Retrieving the Skull
