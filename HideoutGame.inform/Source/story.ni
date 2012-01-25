@@ -24,7 +24,8 @@ Include Modified Exit by Emily Short.
 
 Before printing the banner text, say "[bold type]You got the message from Roy this morning:  'Something's gone horribly wrong at the Hideout!' he said.  'We can't find the skull anywhere!'  Then he finished the message hastily:  'Hold on, Ceej is getting attacked by a grue.'  And then ...nothing.[paragraph break]So here you are at the Hideout Theatre, determined to get to the bottom of what's going on.[roman type][paragraph break][paragraph break]"
 
-After printing the banner text, say "[paragraph break]"
+After printing the banner text, say "Enter 'HELP' at any time for information about how to play this game.[paragraph break]"
+
 
 Section 2 - Help!
 
@@ -110,20 +111,33 @@ Instead of exiting when the player is in the Hideout Coffeehouse:  try going out
 
 The Stairway is above The Hideout Coffeehouse.  "You are standing on a long, steep set of stairs with two landings. The walls are dusty, with a few old picture-frame nails hammered into them.  You see colorful murals painted along the walls.  At the top of the stairs you can see a small room with a ticket table, and you can go downstairs to the coffee shop."
 
-The colorful murals are scenery in the stairway.  The description of the colorful murals is "Usually Kaci's murals are quite cheery, but today you can make out the spirits of the damned being tortured in amongst the happy little trees -- probably a side effect of the curse."
+The colorful murals are scenery in the Stairway.  The description of the colorful murals is "Usually Kaci's murals are quite cheery, but today you can make out the spirits of the damned being tortured in amongst the happy little trees -- probably a side effect of the curse."
+
+The stairs are a backdrop.  They are in the Hideout Coffeehouse, the Stairway, and the Foyer.  The description of the stairs is "It looks like these are the stairs that go up to the theater space."  Understand "staircase" and "stairway" as the stairs.
+
+Instead of climbing the stairs when the player is in the Foyer, say "You're already at the top of the stairs."
+Instead of climbing the stairs, try going up.
+Instead of entering the stairs when the player is in the Hideout Coffeehouse, try going up.
+Instead of entering the stairs when the player is in the Foyer, try going down.
+Instead of entering the stairs when the player is in the Stairway, say "You're already on the stairs."
 
 
 The Foyer is above the Stairway.  "This is a small, L-shaped foyer at the top of the stairs.  Kareem sits at a small desk beneath a pretty chandelier, holding a fancy hole punch.  There are doors to the north, south, east, and west, a steep stairway leading down, and a ladder leading up."  The chandelier and the desk are scenery in the Foyer.
 
 
-The Top of the Ladder is above the Foyer.  "You are at the top of the ladder that leads to the tech booth.  There is a door to the north, with a keypad beside it."
+A room called Above the Foyer is above the Foyer.  "You are at Above the Foyer that leads to the tech booth.  There is a door to the north, with a keypad beside it."
+
+The ladder is a backdrop.  It is in the Foyer and the Above the Foyer .
+
+Instead of climbing the ladder when the player is in the Foyer, try going up.
+Instead of climbing the ladder when the player is in Above the Foyer , try going down.
 
 
 The Tech Booth is a room.  "You are in the tech booth.  Large windows overlook the theater, and before you sits a large lighting board.  There is a door to the south; outside the door, a ladder leads back down to the foyer."  The windows and are scenery in the Tech Booth.
 
-The tech door is north of the Top of the Ladder and south of the Tech Booth.  The tech door is a door.  The tech door is locked.  The tech door is scenery.
+The tech door is north of the Above the Foyer and south of the Tech Booth.  The tech door is a door.  The tech door is locked.  The tech door is scenery.
 
-Instead of going inside while in the Top of the Ladder, try going north.
+Instead of going inside while in Above the Foyer , try going north.
 Instead of going outside in the Tech Booth, try going south.
 
 The Green Room is east of the Foyer.  "This is a spacious, well-lit room with hardwood floors.  There is a door up a short stairway to the east, a door to the west, and a door in the northeast corner of the room."
@@ -133,6 +147,15 @@ Some chairs are an object in the Green Room.  The description of the chairs is "
 Instead of taking some chairs:  say "The chairs are far too heavy to take."
 
 A bell is an object in the Green Room.  The description of the bell is "An unremarkable chromed bell like you'd see at an old-timey service desk.  This bell is no doubt used in improv games like 'New Choice' and 'More British'."
+
+Ringing is an action applying to one visible thing.
+Understand "Ring [something]" as ringing.
+Check ringing:
+	if the noun is a person, say "You tap [the noun] on the head and say, 'Ding!'.[paragraph break][The noun] looks unamused." instead;
+	if the noun is not the bell, say "You can't ringt that!" instead.
+	
+Report ringing: say "New choice!"
+
 
 Instead of exiting when the player is in the Green Room:  try going east.
 Instead of going outside in the Green Room, try going east.
@@ -263,7 +286,7 @@ Topic	Reply	Drunk Reply
 "Tom Waits"	"'He's pretty much the best songwriter alive.'"	"'Listen.  Listen.  Listen.'  He motions you over, and once you get close enough, he grabs you and sings you the entirety of [italic type]Swordfishtrombones[roman type]."
 "grue/grues/the grues"	"'I know about them, alright?  I'm working on it.  It's on the list of tasks to do for the Hideout, which is as long as my arm.  I've called an exterminator, but he's not called me back, so... I just don't know.  Okay?'"	"He lurches unsteadily to his feet just long enough to shout 'BASTARDS!' in the general direction of the theater."
 "skull/skull-on-a-stick/the skull/the skull-on-a-stick"	"'It's a talisman, mounted on a stick, that has supposedly magical powers.  What's so hard to understand here?'"	"Kareem suddenly bursts into tears.  'IT'S GONE,' he moans, 'and now it'll open the gates of hell or something.'   He goes on, mostly indecipherable except for a few phrases about 'dogs and cats, living together' and 'mass hysteria'."
-"me/myself"	"He shrugs.  'You seem alright,' he says."	"'You... you brought me whisky.  I will call you 'he-who-brings-me-whisky.'"
+"me/myself"	"He shrugs.  'You seem alright,' he says."	"'You... you brought me whisky.  I will call you [']he-who-brings-me-whisky.[']'"
 "improv"	"'I prefer to call them [']wacky-town make-em-ups[']."	"He punches a fist towards the sky.  'IMPROV!' he shouts."
 
 
@@ -309,7 +332,7 @@ Section 6 - Entering the Tech Booth
 
 test keypad with "in / u / u / give whisky to kareem / ask kareem about keypad / u / type 3497 on the keypad / open door / in / out / d / d / d / out" holding the whisky.
 
-The keypad is an object in the Top of the Ladder.  The description of the keypad is "This keypad lets you enter a series of numbers.[if the tech door is locked]  Presumably if you type the correct code on the keypad, it will unlock the adjacent door.[end if]".  The keypad is fixed in place.
+The keypad is an object in Above the Foyer.  The description of the keypad is "This keypad lets you enter a series of numbers.[if the tech door is locked]  Presumably if you type the correct code on the keypad, it will unlock the adjacent door.[end if]".  The keypad is fixed in place.
 
 The keypad code is a number that varies.  The keypad code is 0.
 
@@ -320,6 +343,7 @@ Typing it on is an action applying to one number and one visible thing.
 Understand "type [a number] on [something]" as typing it on.
 
 Check typing it on:
+	if the number understood is 666, say "You're pretty sure that would open a portal to hell." instead;
 	if the second noun is not the keypad, say "You can't type anything on [the second noun]." instead;
 	if the tech door is unlocked, say "Why bother?  The door it's attached to is already unlocked." instead;
 	if the keypad is unsolved, say "There's little use messing around with the keypad when you don't know the combination." instead;
@@ -410,3 +434,19 @@ The skull is in the Backstage.  "The skull-on-a-stick is here!"  The description
 Instead of giving the skull to Roy:  say "Roy says, 'Hurrah!  The skull-on-a-stick is found again!'  He raises it up to the heavens, and light shoots out from the skull in all directions.  For a split second, it is as if all the demons in the underworld are screaming in pain simultaneously -- then, that noise ebbs away, and the sound of angelic voices and harps fills the air.  The walls stop breathing.  The creeping, eldritch dread disappears.
 
 Looks like you're all ready to sit down and watch an improvised text adventure at the Hideout."; end the game in victory.
+
+
+
+Section 10 - Suggestions for Amusement
+
+Table of Amusing Matter 
+title	subtable	description	toggle
+"People"	a table name	"Did you try... [paragraph break] getting Kareem drunk and asking him about Tom Waits? [line break] asking him about improv? [line break] asking him about the grues? [line break] asking Brad about Kareem? [line break] asking Brad about sex?"	a rule
+"Objects"	a table name	"Did you try... [paragraph break] using the swiffer to dust itself? [line break] ringing the bell? [line break] ringing a human being? [line break] typing '666' on the keypad? "	a rule
+
+
+Rule for amusing a victorious player: 
+    now the current menu is the Table of Amusing Matter; 
+    now the current menu title is "Things to Try"; 
+    carry out the displaying activity; 
+    clear the screen. 
