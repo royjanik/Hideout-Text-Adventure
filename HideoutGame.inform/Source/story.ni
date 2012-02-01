@@ -22,9 +22,12 @@ Rule for deciding whether all includes scenery: it does not. Rule for deciding w
 
 Include Modified Exit by Emily Short.
 
-Before printing the banner text, say "[bold type]You got the message from Roy this morning:  'Something's gone horribly wrong at the Hideout!' he said.  'We can't find the skull anywhere!'  Then he finished the message hastily:  'Hold on, Ceej is getting attacked by a grue.'  And then ...nothing.[paragraph break]So here you are at the Hideout Theatre, determined to get to the bottom of what's going on.[roman type][paragraph break][paragraph break]"
+Understand "upstairs" as up.
+Understand "downstairs" as down.
 
-After printing the banner text, say "Enter 'HELP' at any time for information about how to play this game.[paragraph break]"
+Before printing the banner text, say "[bold type]You got the message from Roy this morning:  'Something's gone horribly wrong at the Hideout!' he said.  'We can't find the skull anywhere!'  Then he finished the message hastily:  'Hold on, Ceej is getting attacked by a grue.'  And then ...nothing.[paragraph break]So here you are at the Hideout Theatre, determined to get to the bottom of what's going on.[roman type][paragraph break][line break]"
+
+After printing the banner text, say "[line break]Enter 'HELP' at any time for information about how to play this game.[paragraph break]"
 
 
 Section 2 - Help!
@@ -46,7 +49,7 @@ Carry out asking for help (this is the help request rule):
 
 Table of Basic Help Options
 title	subtable	description	toggle
-"Introduction to [story title]"	a table-name	"[bold type][story title][roman type][paragraph break]For this game in particular, remember that you can talk to people:  'ASK <person> ABOUT <topic>' is always an option, and one you'll have to use often.  (For example, you can 'ASK BRAD ABOUT SEX', though that's not particularly useful to the game.)[paragraph break]Remember to examine everything and to go everywhere; if worse comes to worst, but Peter for hints."	a rule
+"Introduction to [story title]"	a table-name	"[bold type][story title][roman type][paragraph break]For this game in particular, remember that you can talk to people:  'ASK <person> ABOUT <topic>' is always an option, and one you'll have to use often.  (For example, you can 'ASK BRAD ABOUT SEX', though that's not particularly useful to the game.)[paragraph break]Remember to examine everything and to go everywhere; if worse comes to worst, bug Peter for hints."	a rule
 "Instructions for Playing IF in General"	Table of Instruction Options	--	--
 
 
@@ -117,9 +120,11 @@ The stairs are a backdrop.  They are in the Hideout Coffeehouse, the Stairway, a
 
 Instead of climbing the stairs when the player is in the Foyer, say "You're already at the top of the stairs."
 Instead of climbing the stairs, try going up.
+
 Instead of entering the stairs when the player is in the Hideout Coffeehouse, try going up.
 Instead of entering the stairs when the player is in the Foyer, try going down.
 Instead of entering the stairs when the player is in the Stairway, say "You're already on the stairs."
+
 
 
 The Foyer is above the Stairway.  "This is a small, L-shaped foyer at the top of the stairs.  Kareem sits at a small desk beneath a pretty chandelier, holding a fancy hole punch.  There are doors to the north, south, east, and west, a steep stairway leading down, and a ladder leading up."  The chandelier and the desk are scenery in the Foyer.
@@ -133,7 +138,7 @@ Instead of climbing the ladder when the player is in the Foyer, try going up.
 Instead of climbing the ladder when the player is in Above the Foyer , try going down.
 
 
-The Tech Booth is a room.  "You are in the tech booth.  Large windows overlook the theater, and before you sits a large lighting board.  There is a door to the south; outside the door, a ladder leads back down to the foyer."  The windows and are scenery in the Tech Booth.
+The Tech Booth is a room.  "You are in the tech booth.  Large windows overlook the theater, and before you sits a large lighting board.  There is a door to the south; outside the door, a ladder leads back down to the foyer."  The windows are scenery in the Tech Booth.
 
 The tech door is north of the Above the Foyer and south of the Tech Booth.  The tech door is a door.  The tech door is locked.  The tech door is scenery.
 
@@ -142,20 +147,13 @@ Instead of going outside in the Tech Booth, try going south.
 
 The Green Room is east of the Foyer.  "This is a spacious, well-lit room with hardwood floors.  There is a door up a short stairway to the east, a door to the west, and a door in the northeast corner of the room."
 
-Some chairs are an object in the Green Room.  The description of the chairs is "There are two sets of chairs -- one red, and one black.  The red ones have a sign:  'For Shows Only!'".
+Some chairs are an enterable supporter in the Green Room.  The description of the chairs is "There are two sets of chairs -- one red, and one black.  The red ones have a sign:  'For Shows Only!'".  Understand "chair" as some chairs.
 
 Instead of taking some chairs:  say "The chairs are far too heavy to take."
 
+Instead of entering some chairs:  say "But those chairs are for the audience!  Besides, aren't you supposed to be on a quest here?".
+
 A bell is an object in the Green Room.  The description of the bell is "An unremarkable chromed bell like you'd see at an old-timey service desk.  This bell is no doubt used in improv games like 'New Choice' and 'More British'."
-
-Ringing is an action applying to one visible thing.
-Understand "Ring [something]" as ringing.
-Check ringing:
-	if the noun is a person, say "You tap [the noun] on the head and say, 'Ding!'.[paragraph break][The noun] looks unamused." instead;
-	if the noun is not the bell, say "You can't ringt that!" instead.
-	
-Report ringing: say "New choice!"
-
 
 Instead of exiting when the player is in the Green Room:  try going east.
 Instead of going outside in the Green Room, try going east.
@@ -187,10 +185,14 @@ The metal catwalk is scenery in The Catwalk Area.  "The catwalk is a metal latti
 Instead of entering the theater when the player is in the Catwalk Area:  try going west.
 
 
-The Alleyway is east of the Catwalk Area.  The Alleyway is below the Catwalk Area.  "This is the alley out behind the Hideout -- dark, smelly, and seemingly afflicted with the same curse as the rest of the building, judging from the faint undulations in the asphalt and the faint, soul-chilling screams of the damned.  There is a dumspter here."
+The Alleyway is east of the Catwalk Area.  The Alleyway is below the Catwalk Area.  "This is the alley out behind the Hideout -- dark, smelly, and seemingly afflicted with the same curse as the rest of the building, judging from the faint undulations in the asphalt and the faint, soul-chilling screams of the damned.  There is a dumspter here.  To the west, you can go up to a catwalk."
 
 
 The Small Bathroom is north of the Foyer.  "You are in a small bathroom that contains a toilet and sink. There is a mirror on the wall as well as a large number of photos of various Austin improv troupes and gatherings. There is a door to the south."  The toilet, the sink, the mirror, and the photos are scenery in the Small Bathroom.
+
+The toilet is an enterable supporter.
+
+Instead of entering the toilet:  say "You don't feel any pressing need to do that just now.".
 
 Instead of going outside in the Small Bathroom:  try going south.
 
@@ -214,7 +216,7 @@ Backstage is a dark room.  Backstage is west of the Stage.  "This is the cramped
 The Maestro Scoreboard is an object in Backstage.  Instead of taking the Maestro Scoreboard, say "Criminy, it's heavy.  Best to leave it where it is."
 
 
-Departure is south of the Entryway, north of the Entryway, west of the Entryway, northwest of the Entryway, southwest of the Entryway, east of the Alleyway, and west of the Alleyway.
+Departure is south of the Entryway, north of the Entryway, west of the Entryway, northwest of the Entryway, southwest of the Entryway, north of the Alleyway, and south of the Alleyway.
 
 Instead of going to Departure:  say "You can't leave the Hideout now!  You have important theater business to attend to!".
 
@@ -243,8 +245,9 @@ Topic	Reply
 "backstage"	"He stops you mid-sentence with a raised hand.  'All I know is, I don't go back there.  Since losing the skull, the Hideout has had a bit of a grue problem."
 "[grue]"	"Brad shivers involuntarily, but says nothing."
 "[Roy]"	"'Roy helps run the Hideout.  Just follow the sound of goofy laughter and the general feeling of good-natured support; you can't miss him."
-"himself" or "[Brad]"	"Brad Hawkins?  Some say he was a drifter who came from nowhere and was headed for oblivion.  Some say he was a myth so often told and retold, he became real.  I prefer to think of him as an improvisor with an unhealthy addiction to breakfast tacos.'"
+"himself" or "[Brad]"	"'Brad Hawkins?  Some say he was a drifter who came from nowhere and was headed for oblivion.  Some say he was a myth so often told and retold, he became real.  I prefer to think of him as an improvisor with an unhealthy addiction to breakfast tacos.'"
 "[Kaci]"	"'Did you see that latest set she painted?  Crazy.'"
+"Carl"	"'Did you see his paintings in the coffeehouse?  They're great!  You should ask him about them.'"
 "Kareem"	"'My description depends on whether he's drunk or sober.'"
 "Drunk Kareem"	"'He's fairly agreeable.'"
 "Sober/Not-Drunk Kareem"	"'Don't try to get any favors out of sober Kareem.'"
@@ -257,37 +260,43 @@ Instead of kissing Brad, say "Brad evades your clumsy advances."
 Instead of giving the ticket to Brad, say "Brad says, What's the use?  The show's cancelled until somebody can find the skull.'"
 
 
-Inside The Hideout Coffeehouse is a man called Carl. The description of Carl is "Carl wears a wistful smile and khaki shorts.  He spends most of his time expertly mixing drinks with his espresso machines and his collection of bottled syrups."  The espresso machines are scenery in the coffeehouse.
+Inside The Hideout Coffeehouse is a man called Carl. The description of Carl is "Carl wears a wistful smile and khaki shorts.  He spends most of his time expertly mixing drinks with his espresso machines and his surprisingly extensive collection of bottled syrups."  The espresso machines are scenery in the coffeehouse.
 
 After asking Carl about a topic listed in the Table of Carl's Replies, say "[Reply entry]".
 After asking Carl about a topic, say "Carl thinks a moment, then says, 'I'm afraid I don't know much about that.'".
 
+Understand "syrups" and "the syrups" as "[syrups]".
+
 Table of Carl's Replies
 Topic	Reply
 "espresso/coffee"	"Carl says, 'It's delicious!'"
-"syrups"	"'I use those to prepare some of the fancier concoctions.'"
+"[syrups]"	"'I use those to prepare some of the fancier concoctions.'"
 "life"	"'It's pretty good.'"
 "me/myself"	"'You're alright, friend.'"
 "sex"	"Carl looks a bit offended."
 "improv"	"Carl says, 'I've seen a few shows here and there.  Fun!'"
 
 
-Inside the Foyer is a man called Kareem.  The description of Kareem is "A bearded gentleman in a three-piece suit, Kareem looks [if agreeable]slightly-buzzed, and content[otherwise]sober and grouchy[end if]."
+Inside the Foyer is a man called Kareem.  The description of Kareem is "A bearded gentleman in a three-piece suit, Kareem looks [if agreeable]slightly-buzzed, and content[otherwise]sober and grouchy.  He could probably use a drink.[end if]."
 
 After asking Kareem about a topic listed in the Table of Kareem's Replies when Kareem is disagreeable, say "[Reply entry][paragraph break]"
 
 After asking Kareem about a topic listed in the Table of Kareem's Replies when Kareem is agreeable, say "[Drunk reply entry][paragraph break]"
 
 
+Understand "Pappy Van Winkle" and "pappy" and "van winkle" as "[pappy]".
+
 Table of Kareem's Replies
 Topic	Reply	Drunk Reply
-"whisky/whiskey"	"'Whisky?  I like whisky.'"	"'DRINK!'  He raises a fist in the air and imitates a trumpet fanfare.  It's hard to tell if he's being ironic or earnest." 
+"whisky/whiskey/alcohol/booze/drinks"	"'I like whisky.'"	"'DRINK!'  He raises a fist in the air and imitates a trumpet fanfare.  It's hard to tell if he's being ironic or earnest." 
+"[pappy]"	"'That's one of the best kinds of whisky in the world.'"	"'Bastard owes me twenty bucks,' he mutters."
 "life"	"'It ain't bad.'"	"Kareem belches at you.  There is no other response."
 "Tom Waits"	"'He's pretty much the best songwriter alive.'"	"'Listen.  Listen.  Listen.'  He motions you over, and once you get close enough, he grabs you and sings you the entirety of [italic type]Swordfishtrombones[roman type]."
-"grue/grues/the grues"	"'I know about them, alright?  I'm working on it.  It's on the list of tasks to do for the Hideout, which is as long as my arm.  I've called an exterminator, but he's not called me back, so... I just don't know.  Okay?'"	"He lurches unsteadily to his feet just long enough to shout 'BASTARDS!' in the general direction of the theater."
-"skull/skull-on-a-stick/the skull/the skull-on-a-stick"	"'It's a talisman, mounted on a stick, that has supposedly magical powers.  What's so hard to understand here?'"	"Kareem suddenly bursts into tears.  'IT'S GONE,' he moans, 'and now it'll open the gates of hell or something.'   He goes on, mostly indecipherable except for a few phrases about 'dogs and cats, living together' and 'mass hysteria'."
+"[grue]"	"'I know about them, alright?  I'm working on it.  It's on the list of tasks to do for the Hideout, which is as long as my arm.  I've called an exterminator, but he's not called me back, so... I just don't know.  Okay?'"	"He lurches unsteadily to his feet just long enough to shout 'BASTARDS!' in the general direction of the theater."
+"[skull]"	"'It's a talisman, mounted on a stick, that has supposedly magical powers.  What's so hard to understand here?'"	"Kareem suddenly bursts into tears.  'IT'S GONE,' he moans, 'and now it'll open the gates of hell or something.'   He goes on, mostly indecipherable except for a few phrases about 'dogs and cats, living together' and 'mass hysteria'."
 "me/myself"	"He shrugs.  'You seem alright,' he says."	"'You... you brought me whisky.  I will call you [']he-who-brings-me-whisky.[']'"
 "improv"	"'I prefer to call them [']wacky-town make-em-ups[']."	"He punches a fist towards the sky.  'IMPROV!' he shouts."
+"[ticket]"	"'Sorry, the show's cancelled 'til further notice.'"	"Kareem cries incosolably."
 
 
 Kaci is a woman in the Stage.  Kaci carries a paintbrush.  The description of Kaci is "A pale twentysomething in neat and curiously-out-of-time attire, Kaci paces intently, not paying much attention to her surroundings.".
@@ -310,7 +319,8 @@ Section 5 - Getting The Whisky
 [Each of these test procedures accomplishes one step of the game and returns you to the Hideout Entryway.]
 test whisky with "in / ask carl about paintings / x syrups / ask carl about whisky / out"
 
-The bottle of whisky is fixed in place.  Understand "whiskey", "bottle of whiskey" as whisky.
+The bottle of whisky is fixed in place.  Understand "whiskey", "bottle of whiskey" as whisky.  The description of the whisky is "The whisky is a bottle of 23-year, 95.6-proof Pappy Van Winkle."
+
 
 The bottled syrups are scenery in the Coffeehouse.  The description of the bottled syrups is "These are a collection of bottled syrups of various flavors.  [first time]Looking closer, you espy a bottle of whisky hidden amongst the syrups! [only]"
 
@@ -322,7 +332,7 @@ After asking Carl about "whisky/whiskey" while Carl is disagreeable:  say "Carl 
 
 The tasteful paintings are scenery in the Coffeehouse.  The description of the paintings is "These are some heavily art-deco-influenced designs with bright colors and animal motifs.  An discreetly-placed label lists the artist as one 'Carl Johannson'."
 
-After asking Carl about "paintings": say "Carl grins widely.  'Thanks for asking me about my artworks, friend.'"; now Carl is agreeable.
+After asking Carl about "paintings": say "Carl grins widely.  'Thanks for asking me about my artworks, friend.'   Let me know if there's anything I can do for [italic type]you[roman type]."; now Carl is agreeable.
 
 After asking Carl about "whisky/whiskey" while Carl is agreeable and the whisky is visible:  say "Carl grins at you conspiratorially.  'Surely an art lover as yourself would appreciate some good whisky,' he says, and slips you the bottle."; now the whisky is portable; move the whisky to the player.
 
@@ -343,7 +353,6 @@ Typing it on is an action applying to one number and one visible thing.
 Understand "type [a number] on [something]" as typing it on.
 
 Check typing it on:
-	if the number understood is 666, say "You're pretty sure that would open a portal to hell." instead;
 	if the second noun is not the keypad, say "You can't type anything on [the second noun]." instead;
 	if the tech door is unlocked, say "Why bother?  The door it's attached to is already unlocked." instead;
 	if the keypad is unsolved, say "There's little use messing around with the keypad when you don't know the combination." instead;
@@ -372,7 +381,7 @@ Test activateboard with "test openbox / u / w / ne / get schematics / w / e / d 
 
 Test turnonboard with "test activateboard / test keypad / in / u / u / u / in / turn on board / out / d / d / d / out"
 
-The dumpster is a closed container in the Alleyway.  The description of the dumpster is "It's an ordinary dumpster -- thioos is where they throw the trash from the Hideout."
+The dumpster is a closed container in the Alleyway.  The description of the dumpster is "It's an ordinary dumpster -- this is where they throw the trash from the Hideout."
 
 Instead of opening the dumpster:  say "Trust me, you don't have to, and you don't want to."  The dumpster is fixed in place.
 
@@ -431,22 +440,4 @@ Rule for printing the description of a dark room:  say "This is the backstage ar
 
 The skull is in the Backstage.  "The skull-on-a-stick is here!"  The description of the skull is "This is a small skull mounted on an old walking stick.  Perhaps it was purchased long ago at the local costume shop -- or perhaps it dates from the times of the Old Ones, and contains unspeakable powers that keep those dark forces at bay.  Roy is probably looking for it."  Understand "skull-on-a-stick" as the skull.
 
-Instead of giving the skull to Roy:  say "Roy says, 'Hurrah!  The skull-on-a-stick is found again!'  He raises it up to the heavens, and light shoots out from the skull in all directions.  For a split second, it is as if all the demons in the underworld are screaming in pain simultaneously -- then, that noise ebbs away, and the sound of angelic voices and harps fills the air.  The walls stop breathing.  The creeping, eldritch dread disappears.
-
-Looks like you're all ready to sit down and watch an improvised text adventure at the Hideout."; end the game in victory.
-
-
-
-Section 10 - Suggestions for Amusement
-
-Table of Amusing Matter 
-title	subtable	description	toggle
-"People"	a table name	"Did you try... [paragraph break] getting Kareem drunk and asking him about Tom Waits? [line break] asking him about improv? [line break] asking him about the grues? [line break] asking Brad about Kareem? [line break] asking Brad about sex?"	a rule
-"Objects"	a table name	"Did you try... [paragraph break] using the swiffer to dust itself? [line break] ringing the bell? [line break] ringing a human being? [line break] typing '666' on the keypad? "	a rule
-
-
-Rule for amusing a victorious player: 
-    now the current menu is the Table of Amusing Matter; 
-    now the current menu title is "Things to Try"; 
-    carry out the displaying activity; 
-    clear the screen. 
+Instead of giving the skull to Roy:  say "Roy says, 'Hurrah!  The skull-on-a-stick is found again!'  He raises it up to the heavens, and light shoots out from the skull in all directions.  For a split second, it is as if all the demons in the underworld are screaming in pain simultaneously -- then, that noise ebbs away, and the sound of angelic voices and harps fills the air.  The walls stop breathing.  The creeping, eldritch dread disappears.[paragraph break]Looks like you're all ready to sit down and watch an improvised text adventure at the Hideout."; end the game in victory.
